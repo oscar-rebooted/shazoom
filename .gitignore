@@ -5,3 +5,5 @@ songs_wav
 misc
 match_plots
 __pycache__
+.env
+old
