@@ -1,0 +1,15 @@
+MP3 (.mp3)
+WAV (.wav)
+FLAC (.flac)
+OGG (.ogg)
+M4A (.m4a)
+AAC (.aac)
+AIFF (.aiff, .aif)
+AU (.au)
+WMA (.wma) - with certain limitations
+MP4 (.mp4) audio tracks
+
+20MB seems reasonable (constrained by Lambda memory)
+
+Need a way to ensure each IP don't upload too many requests.
+Limit number of requests the app can do in a day to 100

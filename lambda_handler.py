@@ -7,40 +7,51 @@ os.environ['LIBROSA_CACHE_DIR'] = '/tmp'
 from song_matcher import match_song
 from audio_fingerprint import create_audio_fingerprint, create_fingerprint_pairs
 
+# Initialise container
 s3 = boto3.client('s3')
 BUCKET_NAME = "shazoom"
 TMP_DIR = '/tmp'
+os.makedirs(f'{TMP_DIR}/samples', exist_ok=True)
+
+# Get databases
+os.makedirs(f'{TMP_DIR}/databases', exist_ok=True)
+
+db_path_fingerprint = "databases/fingerprint_db.pkl"
+db_path_metadata = "databases/tracks_metadata.json"
+
+db_path_fingerprint_local = f'{TMP_DIR}/{db_path_fingerprint}'
+db_path_metadata_local = f'{TMP_DIR}/{db_path_metadata}'
+
+s3.download_file(BUCKET_NAME, db_path_fingerprint, db_path_fingerprint_local)
+s3.download_file(BUCKET_NAME, db_path_metadata, db_path_metadata_local)
 
 def lambda_handler(event, context):
     try:
-        audio_path = "Reptilia.mp3"
+        # Get audio sample
+        if isinstance(event['body'], str):
+            body = json.loads(event['body'])
+        else:
+            body = event['body']
+        
+        s3_audio_path = body['fileKey']
+        audio_path = f"{TMP_DIR}/{s3_audio_path}"
 
+        os.makedirs(os.path.dirname(audio_path), exist_ok=True)
+
+        s3.download_file(BUCKET_NAME, s3_audio_path, audio_path)
+    
+        # Search database with sample
         fingerprint = create_audio_fingerprint(audio_path)
         fingerprint_pairs, _ = create_fingerprint_pairs(fingerprint)
 
-        os.makedirs(f"{TMP_DIR}/database", exist_ok=True)
-
-        fingerprint_db_path = f'{TMP_DIR}/database/fingerprint_db.pkl'
-        metadata_db_path = f'{TMP_DIR}/database/tracks_metadata.json'
-
-        fingerprint_exists = os.path.exists(fingerprint_db_path)
-        metadata_exists = os.path.exists(metadata_db_path)
-        
-        try:    
-            if not fingerprint_exists:
-                s3.download_file(BUCKET_NAME, 'fingerprint_db.pkl', fingerprint_db_path)
-            if not metadata_exists:
-                s3.download_file(BUCKET_NAME, 'tracks_metadata.json', metadata_db_path)
-        except Exception as e:
-            return {
-                'statuscode': 500,
-                'body': json.dumps({"error_type": "downloading db", "error": str(e)})
-            }
-        
-        track_metadata, confidence, best_time_diff = match_song(fingerprint_pairs, db_dir=TMP_DIR)
+        track_metadata, confidence, best_time_diff = match_song(fingerprint_pairs, db_path_fingerprint_local, db_path_metadata_local)
 
         return {
             'statusCode': 200,
+            'headers': {
+                'Access-Control-Allow-Origin': '*',
+                'Content-Type': 'application/json'
+            },
             'body': json.dumps({
                 "message": "Song matching successful", 
                 "track_metadata": track_metadata,
@@ -50,5 +61,9 @@ def lambda_handler(event, context):
     except Exception as e:
         return {
             'statusCode': 500,
+            'headers': {
+                'Access-Control-Allow-Origin': '*',
+                'Content-Type': 'application/json'
+            },
             'body': json.dumps({"error": str(e)})
         }

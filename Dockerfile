@@ -11,17 +11,5 @@ COPY lambda_handler.py .
 COPY audio_fingerprint.py .
 COPY song_matcher.py .
 
-# Create database directory
-RUN mkdir -p ./database
-
-# Copy sample data for local testing
-# COPY database/fingerprint_db.pkl ./database/
-# COPY database/tracks_metadata.json ./database/
-COPY Reptilia.mp3 .
-
-# Verify files were copied (for debugging)
-RUN ls -la ${LAMBDA_TASK_ROOT}
-RUN ls -la ${LAMBDA_TASK_ROOT}/database
-
 # Set the CMD to your handler
 CMD [ "lambda_handler.lambda_handler" ]

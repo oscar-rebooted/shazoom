@@ -1,41 +1,24 @@
-import os
 import pickle
 import json
-import time
-from audio_fingerprint import create_audio_fingerprint, create_fingerprint_pairs, get_nearby_hashes
-import boto3
+from audio_fingerprint import get_nearby_hashes
 
-fingerprint_db = None
-tracks_metadata = None
-db_last_loaded = 0
-DB_CACHE_DURATION = 3600
+db_fingerprint = None
+db_metadata = None
 
-s3 = boto3.client('s3')
-BUCKET_NAME = "shazoom"
+def load_databases(db_path_fingerprint="databases/fingerprint_db.pkl", db_path_metadata="databases/tracks_metadata.json"):
+    global db_fingerprint, db_metadata
+    
+    if not db_fingerprint:  
+        with open(db_path_fingerprint, 'rb') as f:
+            db_fingerprint = pickle.load(f)
+    if not db_metadata:
+        with open(db_path_metadata, 'r', encoding='utf-8') as f:
+            db_metadata = json.load(f)
+    
+    return db_fingerprint, db_metadata
 
-def load_databases(db_dir="."):
-    global fingerprint_db, tracks_metadata, db_last_loaded
-    
-    # s3.download_file(BUCKET_NAME, 'fingerprint_db.pkl', './fingerprint_db.pkl')
-    # s3.download_file(BUCKET_NAME, 'tracks_metadata.json', './tracks_metadata.json')
-    
-    current_time = time.time()
-    if fingerprint_db is not None and tracks_metadata is not None and current_time - db_last_loaded < DB_CACHE_DURATION:
-        return fingerprint_db, tracks_metadata
-    
-    fingerprint_path = f"{db_dir}/database/fingerprint_db.pkl"
-    with open(fingerprint_path, 'rb') as f:
-        fingerprint_db = pickle.load(f)
-    
-    metadata_path = f"{db_dir}/database/tracks_metadata.json"
-    with open(metadata_path, 'r', encoding='utf-8') as f:
-        tracks_metadata = json.load(f)
-    
-    db_last_loaded = current_time
-    return fingerprint_db, tracks_metadata
-
-def match_song(fingerprint_pairs, db_dir="."):
-    db, metadata = load_databases(db_dir)
+def match_song(fingerprint_pairs, db_path_fingerprint, db_path_metadata):
+    db, metadata = load_databases(db_path_fingerprint, db_path_metadata)
     
     match_counts = {}
     
@@ -123,36 +106,3 @@ def main(fingerprint_pairs):
         'time_offset': time_diff,
         'message': f"Best match: '{track_metadata['title']}' by {track_metadata['artist']}" if track_metadata else "No strong matches found"
     }
-
-def test(audio_path="./songs_mp3/Novos Baianos - A Menina Dança.mp3", verbose=True):
-    if verbose:
-        print(f"Testing with audio file: {audio_path}")
-    
-    fingerprint = create_audio_fingerprint(audio_path)
-    
-    # Use the unified create_fingerprint_pairs function
-    fingerprint_pairs, _ = create_fingerprint_pairs(fingerprint)
-    
-    if verbose:
-        print("Matching against database...")
-    
-    result = main(fingerprint_pairs)
-    
-    if verbose:
-        print("\nMatch result:")
-        if result['track']:
-            confidence_percent = result['confidence'] * 100
-            confidence_level = "High" if confidence_percent > 70 else "Medium" if confidence_percent > 40 else "Low"
-            
-            print(f"Best match: '{result['track']['title']}' by {result['track']['artist']}")
-            print(f"Confidence: {confidence_percent:.2f}% ({confidence_level})")
-            print(f"Time offset: {result['time_offset']}")
-        else:
-            print("No strong matches found in database")
-            print(f"Confidence: {result['confidence'] * 100:.2f}%")
-    
-    return result
-
-# if __name__ == "__main__":
-#     if not os.environ.get('AWS_LAMBDA_FUNCTION_NAME'):
-#         test("./Reptilia.mp3")
