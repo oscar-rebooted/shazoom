@@ -27,13 +27,35 @@ s3.download_file(BUCKET_NAME, db_path_metadata, db_path_metadata_local)
 
 def lambda_handler(event, context):
     try:
-        # Get audio sample
-        if isinstance(event['body'], str):
-            body = json.loads(event['body'])
-        else:
-            body = event['body']
+        # Check if warm-up request
+        if event.get('httpMethod') == 'GET':
+            return {
+                'statusCode': 200,
+                'headers': {
+                    'Access-Control-Allow-Origin': '*', 
+                    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type'
+                },
+                'body': json.dumps({'status': 'warmed'})
+            }
         
-        s3_audio_path = body['fileKey']
+        # Get audio sample
+        if event.get('body'):
+            if isinstance(event['body'], str):
+                body = json.loads(event['body'])
+            else:
+                body = event.get('body', event)
+        else: # In case of direct lambda invocation, not going through API Gateway
+            body = event
+
+        s3_audio_path = body.get('fileKey')
+        if not s3_audio_path:
+            return {
+                'statusCode': 400,
+                'headers': {'Access-Control-Allow-Origin': '*'},
+                'body': json.dumps({'error': 'Missing fileKey parameter'})
+            }
+
         audio_path = f"{TMP_DIR}/{s3_audio_path}"
 
         os.makedirs(os.path.dirname(audio_path), exist_ok=True)
