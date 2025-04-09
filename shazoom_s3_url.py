@@ -12,15 +12,16 @@ def lambda_handler(event, context):
     try:
         # Generate a unique file name
         file_key = f"samples/{datetime.now().strftime('%Y%m%d')}/{uuid.uuid4()}.mp3"
-        print(file_key)
+        
+        conditions = [
+            # Set file size limit to 20MB
+            ["content-length-range", 0, 20971520]
+        ]
         # Generate a presigned URL
-        presigned_url = s3_client.generate_presigned_url(
-            'put_object',
-            Params={
-                'Bucket': BUCKET_NAME,
-                'Key': file_key,
-                'ContentType': 'audio/mpeg'
-            },
+        presigned_post = s3_client.generate_presigned_post(
+            Bucket=BUCKET_NAME,
+            Key=file_key,
+            Conditions=conditions,
             ExpiresIn=300  # URL expires in 5 minutes
         )
         
@@ -32,7 +33,7 @@ def lambda_handler(event, context):
                 'Content-Type': 'application/json'
             },
             'body': json.dumps({
-                'uploadUrl': presigned_url,
+                'uploadData': presigned_post,
                 'fileKey': file_key
             })
         }
