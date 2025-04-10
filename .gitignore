@@ -3,7 +3,7 @@ songs_mp3_copy
 songs_wav
 .ipynb_checkpoints
 misc
-match_plots
 __pycache__
 .env
 old
+db_pipeline/downloads

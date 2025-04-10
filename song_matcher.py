@@ -103,6 +103,5 @@ def main(fingerprint_pairs):
     return {
         'track': track_metadata,
         'confidence': confidence,
-        'time_offset': time_diff,
-        'message': f"Best match: '{track_metadata['title']}' by {track_metadata['artist']}" if track_metadata else "No strong matches found"
+        'time_offset': time_diff
     }
