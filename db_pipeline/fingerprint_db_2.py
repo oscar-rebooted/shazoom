@@ -78,7 +78,7 @@ def append_fingerprints(metadata_path, downloads_folder, pickle_path, fingerprin
     for track_id, track_data in metadata.items():        
         # Skip if already processed
         if track_id in existing_track_ids:
-            print(f"Skipping track_id {track_id} ({track_data.get('artist', '')} - {track_data.get('spotify_title', '')}): Already processed")
+            print(f"Skipping track_id {track_id} ({track_data.get('spotify', {}).get('artist', '')} - {track_data.get('spotify', {}).get('title', '')}): Already processed")
             continue
             
         original_filename = track_data.get("original_filename", "")
@@ -93,7 +93,7 @@ def append_fingerprints(metadata_path, downloads_folder, pickle_path, fingerprin
             continue
             
         # Process the track
-        print(f"Processing track_id {track_id}: {track_data.get('artist', '')} - {track_data.get('spotify_title', '')}")
+        print(f"Processing track_id {track_id}: {track_data.get('spotify', {}).get('artist', '')} - {track_data.get('spotify', {}).get('title', '')}")
         fingerprint_count = process_track(file_path, track_id, database, fingerprint_params)
         
         if fingerprint_count > 0:
@@ -110,7 +110,7 @@ def append_fingerprints(metadata_path, downloads_folder, pickle_path, fingerprin
 if __name__ == "__main__":
     # Configuration
     METADATA_PATH = "metadata_spotify.json"
-    DOWNLOADS_FOLDER = "downloads"  
+    DOWNLOADS_FOLDER = "downloads/mp3"  
     PICKLE_PATH = "fingerprint_db.pkl"
     
     # Fingerprinting parameters (same as in original script)

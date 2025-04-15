@@ -68,6 +68,8 @@ def lambda_handler(event, context):
 
         track_metadata, confidence, best_time_diff = match_song(fingerprint_pairs, db_path_fingerprint_local, db_path_metadata_local)
 
+        print(track_metadata["spotify"])
+
         return {
             'statusCode': 200,
             'headers': {
@@ -76,10 +78,11 @@ def lambda_handler(event, context):
             },
             'body': json.dumps({
                 "message": "Song matching successful", 
-                "track_metadata": track_metadata,
+                "track_metadata": track_metadata["spotify"],
                 "confidence": float(confidence)
                 })
         }
+    
     except Exception as e:
         return {
             'statusCode': 500,

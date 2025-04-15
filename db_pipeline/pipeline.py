@@ -16,7 +16,8 @@ load_dotenv()
 
 # Configuration
 YT_PLAYLIST_URL = "https://www.youtube.com/playlist?list=PL_oFlvgqkrjUVQwiiE3F3k3voF4tjXeP0"
-DOWNLOAD_DIR = "downloads"
+DOWNLOAD_DIR = "downloads/webm"
+MP3_DIR = "downloads/mp3"
 METADATA1_PATH = "metadata_youtube.json"
 METADATA2_PATH = "metadata_spotify.json"
 SPOTIFY_RATE_LIMIT = 100  # requests per minute
@@ -63,6 +64,43 @@ class YouTubeDownloader:
             print(f"Warning: Only {len(existing_files)} of {len(filenames)} reported files actually exist")
             
         return existing_files
+
+class AudioConverter:
+    def __init__(self, input_dir: str, output_dir: str):
+        self.input_dir = input_dir
+        self.output_dir = output_dir
+        os.makedirs(output_dir, exist_ok=True)
+    
+    def convert_to_mp3(self, input_files: List[str]) -> List[str]:
+        """Convert audio files to MP3 format and return the new file paths"""
+        mp3_files = []
+        
+        for input_file in tqdm(input_files, desc="Converting to MP3"):
+            # Create output path with mp3 extension
+            filename = os.path.basename(input_file)
+            name_without_ext = os.path.splitext(filename)[0]
+            output_file = os.path.join(self.output_dir, f"{name_without_ext}.mp3")
+            
+            # Convert using ffmpeg
+            cmd = [
+                "ffmpeg",
+                "-y",  # Overwrite output file if it exists
+                "-i", input_file,
+                "-vn",  # No video
+                "-ar", "44100",  # Audio sampling rate
+                "-ac", "2",  # Audio channels
+                "-b:a", "192k",  # Audio bitrate
+                output_file
+            ]
+            
+            try:
+                subprocess.run(cmd, check=True, capture_output=True)
+                mp3_files.append(output_file)
+                print(f"Converted: {output_file}")
+            except subprocess.CalledProcessError as e:
+                print(f"Error converting {input_file}: {e.stderr.decode()}")
+        
+        return mp3_files
 
 class MetadataProcessor:
     def __init__(self, metadata_path: str):
@@ -149,10 +187,12 @@ class MetadataProcessor:
         
         self.metadata[shazoom_id] = {
             "original_filename": basename,
-            "youtube_title_v1": youtube_title_v1,
-            "youtube_title_v2": youtube_title_v2,
-            "youtube_title_v3": youtube_title_v3,
-            "artist": artist
+            "youtube": {
+                "youtube_title_v1": youtube_title_v1,
+                "youtube_title_v2": youtube_title_v2,
+                "youtube_title_v3": youtube_title_v3,
+                "youtube_artist": artist
+            }
         }
     
     def save(self) -> None:
@@ -266,29 +306,19 @@ class SpotifyEnricher:
         print(f"Enriching metadata for {len(new_ids)} new tracks")
         for shazoom_id in tqdm(new_ids):
             entry = basic_metadata[shazoom_id]
-            title = entry["youtube_title_v3"]
-            artist = entry["artist"]
+            title = entry["youtube"]["youtube_title_v3"]
+            artist = entry["youtube"]["youtube_artist"]
             
             # Get additional metadata from Spotify using both title and artist
             spotify_data = self.search_track(title, artist)
-            
-            # Create enriched entry with renamed fields
-            enriched_entry = {
-                "original_filename": entry.get("original_filename", ""),
-                "youtube_title_v1": entry.get("youtube_title_v1", ""),
-                "youtube_title_v2": entry.get("youtube_title_v2", ""),
-                "youtube_title_v3": entry.get("youtube_title_v3", ""),
-                "artist": entry.get("artist", ""),
-                "spotify_title": spotify_data.get("title", "") if spotify_data else ""
-            }
-            
+                        
+            entry["spotify"] = {}
             # Add other Spotify data if available
             if spotify_data:
                 for key, value in spotify_data.items():
-                    if key != "title":  # Skip title as we already handled it
-                        enriched_entry[key] = value
+                    entry["spotify"][key] = value
             
-            enriched_metadata[shazoom_id] = enriched_entry
+            enriched_metadata[shazoom_id] = entry
             processed_ids.append(shazoom_id)
         
         # Save enriched metadata
@@ -306,6 +336,7 @@ def main():
     
     # Initialize components
     downloader = YouTubeDownloader(DOWNLOAD_DIR)
+    converter = AudioConverter(DOWNLOAD_DIR, MP3_DIR)
     metadata_proc = MetadataProcessor(METADATA1_PATH)
     spotify = SpotifyEnricher(SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_RATE_LIMIT)
     
@@ -315,21 +346,25 @@ def main():
     id_counter = 0
     # Download videos (adjust range as needed for your 1000 songs)
     # Split into smaller batches to avoid overwhelming your system
-    batch_size = 1
-    total_videos = 4
+    batch_size = 2
+    total_videos = 20
     
     for start_idx in range(1, total_videos, batch_size):
         end_idx = min(start_idx + batch_size - 1, total_videos)
         print(f"Downloading videos {start_idx} to {end_idx}...")
         
-        filenames = downloader.download_playlist(
+        # Step 1: Download webm files
+        webm_files = downloader.download_playlist(
             YT_PLAYLIST_URL, 
             start_idx=start_idx, 
             end_idx=end_idx
         )
         
-        # Process each downloaded file
-        for filename in filenames:
+        # Step 2: Convert webm to mp3
+        mp3_files = converter.convert_to_mp3(webm_files)
+
+        # Step 3: Process each converted mp3 file        
+        for filename in mp3_files:
             # Create shazoom_id using deterministic hash which outputs integers only
             # base_filename = os.path.basename(filename)
             # hash_obj = hashlib.sha256(base_filename.encode('utf-8'))
