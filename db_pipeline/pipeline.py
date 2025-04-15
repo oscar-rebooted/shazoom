@@ -35,8 +35,8 @@ class YouTubeDownloader:
         cmd = [
             "yt-dlp",
             "--limit-rate", "1M",
-            "--sleep-interval", "3",
-            "--max-sleep-interval", "7",
+            # "--sleep-interval", "3",
+            # "--max-sleep-interval", "7",
             "-f", "ba",
             "--print", "after_move:filepath",  # Add this to print actual file paths            
             "-o", f"{self.download_dir}/%(title)s [%(id)s].%(ext)s",  # Explicitly set output path
@@ -126,8 +126,7 @@ class MetadataProcessor:
     def clean_youtube_title(self, title: str) -> str:
         """Clean the YouTube title by removing expressions but keeping feat/ft"""
         # Remove various official video/music video markers
-        pattern = r'\s*[\(\[](?:Official(?:\s+(?:Music|Lyric|HD))?(?:\s+Video)?|MV|M/V|Live|Ao Vivo|LETRA|Lyrics|Video Oficial)[\)\]]\s*'
-    
+        pattern = r'[\(\[](?:Official(?:\s+(?:Music|Lyric|HD))?(?:\s+Video)?|MV|M/V|Live|Ao Vivo|LETRA|Lyrics|Video Oficial)[\)\]]\s*'
         cleaned_title = re.sub(pattern, '', title, flags=re.IGNORECASE)
         
         return cleaned_title.strip()
@@ -347,7 +346,7 @@ def main():
     # Download videos (adjust range as needed for your 1000 songs)
     # Split into smaller batches to avoid overwhelming your system
     batch_size = 2
-    total_videos = 20
+    total_videos = 50
     
     for start_idx in range(1, total_videos, batch_size):
         end_idx = min(start_idx + batch_size - 1, total_videos)
