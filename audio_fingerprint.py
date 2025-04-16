@@ -1,18 +1,18 @@
-import numpy as np
-import librosa
-import scipy.ndimage
+from numpy import abs, logspace, log10, zeros_like, argmax, argwhere
+from librosa import load, stft
+from scipy.ndimage import maximum_filter
 
 def create_audio_fingerprint(audio_path, target_peaks_per_second=30, window_length=1024, hop_length=32, num_bands=6):
-    y, sr = librosa.load(audio_path, mono=True, sr=8192)
+    y, sr = load(audio_path, mono=True, sr=8192)
     
-    D = librosa.stft(y, n_fft=window_length, hop_length=hop_length)
+    D = stft(y, n_fft=window_length, hop_length=hop_length)
     
-    magnitude = np.abs(D)
+    magnitude = abs(D)
     
     freq_bins = magnitude.shape[0]
     bands = []
     
-    band_edges = np.logspace(np.log10(1), np.log10(freq_bins-1), num_bands + 1).astype(int)
+    band_edges = logspace(log10(1), log10(freq_bins-1), num_bands + 1).astype(int)
     band_edges[0] = 0
     
     for i in range(num_bands):
@@ -20,22 +20,22 @@ def create_audio_fingerprint(audio_path, target_peaks_per_second=30, window_leng
         end = band_edges[i + 1]
         bands.append((start, end))
     
-    band_peaks = np.zeros_like(magnitude)
+    band_peaks = zeros_like(magnitude)
     
     for t in range(magnitude.shape[1]):
         for start, end in bands:
             band_magnitude = magnitude[start:end, t]
             
             if len(band_magnitude) > 0:
-                max_idx = np.argmax(band_magnitude) + start
+                max_idx = argmax(band_magnitude) + start
                 band_peaks[max_idx, t] = magnitude[max_idx, t]
     
     neighbourhood_size = 30
     
-    max_filtered = scipy.ndimage.maximum_filter(band_peaks, size=(neighbourhood_size, neighbourhood_size))
+    max_filtered = maximum_filter(band_peaks, size=(neighbourhood_size, neighbourhood_size))
     peak_mask = (band_peaks == max_filtered) & (band_peaks > 0)
     
-    peak_coordinates = np.argwhere(peak_mask)
+    peak_coordinates = argwhere(peak_mask)
     
     fingerprint = [(time, freq) for freq, time in peak_coordinates]
     
