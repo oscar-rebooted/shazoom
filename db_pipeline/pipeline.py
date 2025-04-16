@@ -342,14 +342,15 @@ def main():
     # Keep track of which IDs have been processed for Spotify enrichment
     processed_spotify_ids = []
     
-    id_counter = 0
     # Download videos (adjust range as needed for your 1000 songs)
     # Split into smaller batches to avoid overwhelming your system
     batch_size = 2
-    total_videos = 50
-    
-    for start_idx in range(1, total_videos, batch_size):
-        end_idx = min(start_idx + batch_size - 1, total_videos)
+    start_video = 1 # Careful, otherwise you overwrite metadata_spotify.json
+    end_video = 200
+    id_counter = start_video
+
+    for start_idx in range(start_video, end_video + 1, batch_size):
+        end_idx = min(start_idx + batch_size - 1, end_video)
         print(f"Downloading videos {start_idx} to {end_idx}...")
         
         # Step 1: Download webm files

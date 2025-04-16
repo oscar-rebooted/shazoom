@@ -1,5 +1,5 @@
 {
-  "0": {
+  "1": {
     "original_filename": "Luis Fonsi - Despacito ft. Daddy Yankee [kJQP7kiw5Fk].mp3",
     "youtube": {
       "youtube_title_v1": "Luis Fonsi - Despacito ft. Daddy Yankee",
@@ -15,11 +15,11 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273ef0d4234e1a645740f77d59c"
     }
   },
-  "1": {
+  "2": {
     "original_filename": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack [RgKAFK5djSk].mp3",
     "youtube": {
       "youtube_title_v1": "Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack",
-      "youtube_title_v2": "Wiz Khalifa - See You Again ft. Charlie PuthFurious 7 Soundtrack",
+      "youtube_title_v2": "Wiz Khalifa - See You Again ft. Charlie Puth Furious 7 Soundtrack",
       "youtube_title_v3": "See You Again",
       "youtube_artist": "Wiz Khalifa"
     },
@@ -31,7 +31,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b2734e5df11b17b2727da2b718d8"
     }
   },
-  "2": {
+  "3": {
     "original_filename": "Ed Sheeran - Shape of You (Official Music Video) [JGwWNGJdvx8].mp3",
     "youtube": {
       "youtube_title_v1": "Ed Sheeran - Shape of You (Official Music Video)",
@@ -47,17 +47,23 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
     }
   },
-  "3": {
+  "4": {
     "original_filename": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars [OPf0YbXqDm0].mp3",
     "youtube": {
       "youtube_title_v1": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
-      "youtube_title_v2": "Mark Ronson - Uptown Funkft. Bruno Mars",
-      "youtube_title_v3": "Uptown Funkft. Bruno Mars",
+      "youtube_title_v2": "Mark Ronson - Uptown Funk ft. Bruno Mars",
+      "youtube_title_v3": "Uptown Funk",
       "youtube_artist": "Mark Ronson"
     },
-    "spotify": {}
+    "spotify": {
+      "title": "Uptown Funk (feat. Bruno Mars)",
+      "artist": "Mark Ronson, Bruno Mars",
+      "album": "Uptown Special",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e419ccba0baa8bd3f3d7abf2"
+    }
   },
-  "4": {
+  "5": {
     "original_filename": "Crazy Frog - Axel F (Official Video) [k85mRPqvMbE].mp3",
     "youtube": {
       "youtube_title_v1": "Crazy Frog - Axel F (Official Video)",
@@ -73,11 +79,11 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273d283768954643034b25fde78"
     }
   },
-  "5": {
+  "6": {
     "original_filename": "El Chombo, Dancing Green Alien - Dame Tu Cosita feat. Cutty Ranks (Official Video) [Ultra Records] [FzG4uDgje3M].mp3",
     "youtube": {
       "youtube_title_v1": "El Chombo, Dancing Green Alien - Dame Tu Cosita feat. Cutty Ranks (Official Video) [Ultra Records]",
-      "youtube_title_v2": "El Chombo, Dancing Green Alien - Dame Tu Cosita feat. Cutty Ranks[Ultra Records]",
+      "youtube_title_v2": "El Chombo, Dancing Green Alien - Dame Tu Cosita feat. Cutty Ranks [Ultra Records]",
       "youtube_title_v3": "Dame Tu Cosita",
       "youtube_artist": "El Chombo, Dancing Green Alien"
     },
@@ -89,7 +95,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b27387bb3e23ce2c48c8fdd44ec8"
     }
   },
-  "6": {
+  "7": {
     "original_filename": "Maroon 5 - Sugar (Official Music Video) [09R8_2nJtjg].mp3",
     "youtube": {
       "youtube_title_v1": "Maroon 5 - Sugar (Official Music Video)",
@@ -105,7 +111,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273442b53773d50e1b5369bb16c"
     }
   },
-  "7": {
+  "8": {
     "original_filename": "Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song) [pRpeEdMmmQ0].mp3",
     "youtube": {
       "youtube_title_v1": "Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)",
@@ -121,7 +127,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273d6da56e427f7f87f0e544c6f"
     }
   },
-  "8": {
+  "9": {
     "original_filename": "OneRepublic - Counting Stars [hT_nvWreIhg].mp3",
     "youtube": {
       "youtube_title_v1": "OneRepublic - Counting Stars",
@@ -137,7 +143,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b2739e2f95ae77cf436017ada9cb"
     }
   },
-  "9": {
+  "10": {
     "original_filename": "Katy Perry - Roar [CevxZvSJLk8].mp3",
     "youtube": {
       "youtube_title_v1": "Katy Perry - Roar",
@@ -153,7 +159,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b2731e9a057052d59004caf47e22"
     }
   },
-  "10": {
+  "11": {
     "original_filename": "Katy Perry - Dark Horse ft. Juicy J [0KSOMA3QBU0].mp3",
     "youtube": {
       "youtube_title_v1": "Katy Perry - Dark Horse ft. Juicy J",
@@ -169,7 +175,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b2731e9a057052d59004caf47e22"
     }
   },
-  "11": {
+  "12": {
     "original_filename": "Ed Sheeran - Perfect (Official Music Video) [2Vv-BfVoq4g].mp3",
     "youtube": {
       "youtube_title_v1": "Ed Sheeran - Perfect (Official Music Video)",
@@ -185,7 +191,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
     }
   },
-  "12": {
+  "13": {
     "original_filename": "Ed Sheeran - Thinking Out Loud (Official Music Video) [lp-EO5I60KA].mp3",
     "youtube": {
       "youtube_title_v1": "Ed Sheeran - Thinking Out Loud (Official Music Video)",
@@ -201,7 +207,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd"
     }
   },
-  "13": {
+  "14": {
     "original_filename": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video) [aJOTlE1K90k].mp3",
     "youtube": {
       "youtube_title_v1": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
@@ -217,7 +223,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273deae7d931928fc1543e70203"
     }
   },
-  "14": {
+  "15": {
     "original_filename": "Alan Walker - Faded [60ItHLz5WEA].mp3",
     "youtube": {
       "youtube_title_v1": "Alan Walker - Faded",
@@ -233,7 +239,7 @@
       "albumCover": "https://i.scdn.co/image/ab67616d0000b273a108e07c661f9fc54de9c43a"
     }
   },
-  "15": {
+  "16": {
     "original_filename": "Major Lazer & DJ Snake - Lean On (feat. MØ) [Official 4K Music Video] [YqeW9_5kURI].mp3",
     "youtube": {
       "youtube_title_v1": "Major Lazer & DJ Snake - Lean On (feat. MØ) [Official 4K Music Video]",
@@ -242,5 +248,2269 @@
       "youtube_artist": "Major Lazer & DJ Snake"
     },
     "spotify": {}
+  },
+  "17": {
+    "original_filename": "Enrique Iglesias - Bailando ft. Descemer Bueno, Gente De Zona [NUsoVlDFqZg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Enrique Iglesias - Bailando ft. Descemer Bueno, Gente De Zona",
+      "youtube_title_v2": "Enrique Iglesias - Bailando ft. Descemer Bueno, Gente De Zona",
+      "youtube_title_v3": "Bailando",
+      "youtube_artist": "Enrique Iglesias"
+    },
+    "spotify": {
+      "title": "Bailando - Spanish Version",
+      "artist": "Enrique Iglesias, Descemer Bueno, Gente De Zona",
+      "album": "SEX AND LOVE (Deluxe)",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273443c56aa70db13cdafd4cfe7"
+    }
+  },
+  "18": {
+    "original_filename": "The Gummy Bear Song - Long English Version [astISOttCQ0].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Gummy Bear Song - Long English Version",
+      "youtube_title_v2": "The Gummy Bear Song - Long English Version",
+      "youtube_title_v3": "Long English Version",
+      "youtube_artist": "The Gummy Bear Song"
+    },
+    "spotify": {}
+  },
+  "19": {
+    "original_filename": "Taylor Swift - Blank Space [e-ORhEE9VVg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Taylor Swift - Blank Space",
+      "youtube_title_v2": "Taylor Swift - Blank Space",
+      "youtube_title_v3": "Blank Space",
+      "youtube_artist": "Taylor Swift"
+    },
+    "spotify": {
+      "title": "Blank Space",
+      "artist": "Taylor Swift",
+      "album": "1989 (Deluxe)",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27352b2a3824413eefe9e33817a"
+    }
+  },
+  "20": {
+    "original_filename": "Taylor Swift - Shake It Off [nfWlot6h_JM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Taylor Swift - Shake It Off",
+      "youtube_title_v2": "Taylor Swift - Shake It Off",
+      "youtube_title_v3": "Shake It Off",
+      "youtube_artist": "Taylor Swift"
+    },
+    "spotify": {
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "album": "1989 (Deluxe)",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27352b2a3824413eefe9e33817a"
+    }
+  },
+  "21": {
+    "original_filename": "J Balvin, Willy William - Mi Gente (Official Video) [wnJ6LuUFpMo].mp3",
+    "youtube": {
+      "youtube_title_v1": "J Balvin, Willy William - Mi Gente (Official Video)",
+      "youtube_title_v2": "J Balvin, Willy William - Mi Gente",
+      "youtube_title_v3": "Mi Gente",
+      "youtube_artist": "J Balvin, Willy William"
+    },
+    "spotify": {
+      "title": "Mi Gente",
+      "artist": "J Balvin, Willy William",
+      "album": "Vibras",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273dda2b86297d3bfb519f8b785"
+    }
+  },
+  "22": {
+    "original_filename": "Justin Bieber - Baby ft. Ludacris [kffacxfA7G4].mp3",
+    "youtube": {
+      "youtube_title_v1": "Justin Bieber - Baby ft. Ludacris",
+      "youtube_title_v2": "Justin Bieber - Baby ft. Ludacris",
+      "youtube_title_v3": "Baby",
+      "youtube_artist": "Justin Bieber"
+    },
+    "spotify": {
+      "title": "Baby",
+      "artist": "Justin Bieber, Ludacris",
+      "album": "My World 2.0",
+      "year": 2010,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a"
+    }
+  },
+  "23": {
+    "original_filename": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) [Official Video] [3AtDnEC4zak].mp3",
+    "youtube": {
+      "youtube_title_v1": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) [Official Video]",
+      "youtube_title_v2": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez)",
+      "youtube_title_v3": "We Don't Talk Anymore (feat. Selena Gomez)",
+      "youtube_artist": "Charlie Puth"
+    },
+    "spotify": {
+      "title": "We Don't Talk Anymore (feat. Selena Gomez)",
+      "artist": "Charlie Puth, Selena Gomez",
+      "album": "Nine Track Mind (Special Edition)",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27315145482a542a9adb282250b"
+    }
+  },
+  "24": {
+    "original_filename": "The Chainsmokers - Closer (Lyric) ft. Halsey [PT2_F-1esPk].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Chainsmokers - Closer (Lyric) ft. Halsey",
+      "youtube_title_v2": "The Chainsmokers - Closer (Lyric) ft. Halsey",
+      "youtube_title_v3": "Closer (Lyric)",
+      "youtube_artist": "The Chainsmokers"
+    },
+    "spotify": {}
+  },
+  "25": {
+    "original_filename": "Adele - Hello (Official Music Video) [YQHsXMglC9A].mp3",
+    "youtube": {
+      "youtube_title_v1": "Adele - Hello (Official Music Video)",
+      "youtube_title_v2": "Adele - Hello",
+      "youtube_title_v3": "Hello",
+      "youtube_artist": "Adele"
+    },
+    "spotify": {
+      "title": "Hello",
+      "artist": "Adele",
+      "album": "25",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2737b9888dc365b8f957c63df14"
+    }
+  },
+  "26": {
+    "original_filename": "Dua Lipa - New Rules (Official Music Video) [k2qgadSvNyU].mp3",
+    "youtube": {
+      "youtube_title_v1": "Dua Lipa - New Rules (Official Music Video)",
+      "youtube_title_v2": "Dua Lipa - New Rules",
+      "youtube_title_v3": "New Rules",
+      "youtube_artist": "Dua Lipa"
+    },
+    "spotify": {
+      "title": "New Rules",
+      "artist": "Dua Lipa",
+      "album": "Dua Lipa (Deluxe)",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2735576b115926aa2069bcf0c7f"
+    }
+  },
+  "27": {
+    "original_filename": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video] [papuvlVeZg8].mp3",
+    "youtube": {
+      "youtube_title_v1": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+      "youtube_title_v2": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie)",
+      "youtube_title_v3": "Rockabye (feat. Sean Paul & Anne-Marie)",
+      "youtube_artist": "Clean Bandit"
+    },
+    "spotify": {
+      "title": "Rockabye (feat. Sean Paul & Anne-Marie)",
+      "artist": "Clean Bandit, Anne-Marie, Sean Paul",
+      "album": "What Is Love? (Deluxe Edition)",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27337fb0680110fbb107740de5d"
+    }
+  },
+  "28": {
+    "original_filename": "Shakira - Chantaje (Official Video) ft. Maluma [6Mgqbai3fKo].mp3",
+    "youtube": {
+      "youtube_title_v1": "Shakira - Chantaje (Official Video) ft. Maluma",
+      "youtube_title_v2": "Shakira - Chantaje ft. Maluma",
+      "youtube_title_v3": "Chantaje",
+      "youtube_artist": "Shakira"
+    },
+    "spotify": {
+      "title": "Chantaje (feat. Maluma)",
+      "artist": "Shakira, Maluma",
+      "album": "El Dorado",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d05d3aad30c5fb7614893cf5"
+    }
+  },
+  "29": {
+    "original_filename": "Pedro Capó, Farruko - Calma (Remix - Official Video) [1_zgKRBrT0Y].mp3",
+    "youtube": {
+      "youtube_title_v1": "Pedro Capó, Farruko - Calma (Remix - Official Video)",
+      "youtube_title_v2": "Pedro Capó, Farruko - Calma (Remix - Official Video)",
+      "youtube_title_v3": "Calma (Remix - Official Video)",
+      "youtube_artist": "Pedro Capó, Farruko"
+    },
+    "spotify": {}
+  },
+  "30": {
+    "original_filename": "Daddy Yankee & Snow - Con Calma (Video Oficial) [DiItGE3eAyQ].mp3",
+    "youtube": {
+      "youtube_title_v1": "Daddy Yankee & Snow - Con Calma (Video Oficial)",
+      "youtube_title_v2": "Daddy Yankee & Snow - Con Calma",
+      "youtube_title_v3": "Con Calma",
+      "youtube_artist": "Daddy Yankee & Snow"
+    },
+    "spotify": {
+      "title": "Con Calma",
+      "artist": "Daddy Yankee, Snow",
+      "album": "Con Calma",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273896ffcd42561c44fea2bae7b"
+    }
+  },
+  "31": {
+    "original_filename": "Bruno Mars - The Lazy Song (Official Music Video) [fLexgOxsZu0].mp3",
+    "youtube": {
+      "youtube_title_v1": "Bruno Mars - The Lazy Song (Official Music Video)",
+      "youtube_title_v2": "Bruno Mars - The Lazy Song",
+      "youtube_title_v3": "The Lazy Song",
+      "youtube_artist": "Bruno Mars"
+    },
+    "spotify": {
+      "title": "The Lazy Song",
+      "artist": "Bruno Mars",
+      "album": "Doo-Wops & Hooligans",
+      "year": 2010,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f60070dce96a2c1b70cf6ff0"
+    }
+  },
+  "32": {
+    "original_filename": "Eminem - Love The Way You Lie ft. Rihanna [uelHwf8o7_U].mp3",
+    "youtube": {
+      "youtube_title_v1": "Eminem - Love The Way You Lie ft. Rihanna",
+      "youtube_title_v2": "Eminem - Love The Way You Lie ft. Rihanna",
+      "youtube_title_v3": "Love The Way You Lie",
+      "youtube_artist": "Eminem"
+    },
+    "spotify": {
+      "title": "Love The Way You Lie",
+      "artist": "Eminem, Rihanna",
+      "album": "Recovery",
+      "year": 2010,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273c08d5fa5c0f1a834acef5100"
+    }
+  },
+  "33": {
+    "original_filename": "Fifth Harmony - Work from Home (Official Video) ft. Ty Dolla $ign [5GL9JoH4Sws].mp3",
+    "youtube": {
+      "youtube_title_v1": "Fifth Harmony - Work from Home (Official Video) ft. Ty Dolla $ign",
+      "youtube_title_v2": "Fifth Harmony - Work from Home ft. Ty Dolla $ign",
+      "youtube_title_v3": "Work from Home",
+      "youtube_artist": "Fifth Harmony"
+    },
+    "spotify": {
+      "title": "Work from Home (feat. Ty Dolla $ign)",
+      "artist": "Fifth Harmony, Ty Dolla $ign",
+      "album": "7/27 (Deluxe)",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f1bb8f747ca5103731afd77e"
+    }
+  },
+  "34": {
+    "original_filename": "Calvin Harris, Rihanna - This Is What You Came For (Official Video) [kOkQ4T5WO9E].mp3",
+    "youtube": {
+      "youtube_title_v1": "Calvin Harris, Rihanna - This Is What You Came For (Official Video)",
+      "youtube_title_v2": "Calvin Harris, Rihanna - This Is What You Came For",
+      "youtube_title_v3": "This Is What You Came For",
+      "youtube_artist": "Calvin Harris, Rihanna"
+    },
+    "spotify": {
+      "title": "This Is What You Came For",
+      "artist": "Calvin Harris, Rihanna",
+      "album": "This Is What You Came For",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d9aa52355e062f5de060adbf"
+    }
+  },
+  "35": {
+    "original_filename": "Sia - Chandelier (Official Video) [2vjPBrBU-TM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Sia - Chandelier (Official Video)",
+      "youtube_title_v2": "Sia - Chandelier",
+      "youtube_title_v3": "Chandelier",
+      "youtube_artist": "Sia"
+    },
+    "spotify": {
+      "title": "Chandelier",
+      "artist": "Sia",
+      "album": "1000 Forms Of Fear",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2735d199c9f6e6562aafa5aa357"
+    }
+  },
+  "36": {
+    "original_filename": "Imagine Dragons - Believer (Official Music Video) [7wtfhZwyrcc].mp3",
+    "youtube": {
+      "youtube_title_v1": "Imagine Dragons - Believer (Official Music Video)",
+      "youtube_title_v2": "Imagine Dragons - Believer",
+      "youtube_title_v3": "Believer",
+      "youtube_artist": "Imagine Dragons"
+    },
+    "spotify": {
+      "title": "Believer",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a"
+    }
+  },
+  "37": {
+    "original_filename": "DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B (Official Music Video) [ixkoVwKQaJg].mp3",
+    "youtube": {
+      "youtube_title_v1": "DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B (Official Music Video)",
+      "youtube_title_v2": "DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B",
+      "youtube_title_v3": "Taki Taki",
+      "youtube_artist": "DJ Snake"
+    },
+    "spotify": {
+      "title": "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)",
+      "artist": "DJ Snake, Selena Gomez, Ozuna, Cardi B",
+      "album": "Carte Blanche",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273caf82abb2338880577e472be"
+    }
+  },
+  "38": {
+    "original_filename": "Meghan Trainor - All About That Bass (Official Video) [7PCkvCPvDXk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Meghan Trainor - All About That Bass (Official Video)",
+      "youtube_title_v2": "Meghan Trainor - All About That Bass",
+      "youtube_title_v3": "All About That Bass",
+      "youtube_artist": "Meghan Trainor"
+    },
+    "spotify": {
+      "title": "All About That Bass",
+      "artist": "Meghan Trainor",
+      "album": "Title (Deluxe)",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2733b11178cccd78ec77fc12dbc"
+    }
+  },
+  "39": {
+    "original_filename": "Adele - Rolling in the Deep (Official Music Video) [rYEDA3JcQqw].mp3",
+    "youtube": {
+      "youtube_title_v1": "Adele - Rolling in the Deep (Official Music Video)",
+      "youtube_title_v2": "Adele - Rolling in the Deep",
+      "youtube_title_v3": "Rolling in the Deep",
+      "youtube_artist": "Adele"
+    },
+    "spotify": {
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273164feb363334f93b6458d2a9"
+    }
+  },
+  "40": {
+    "original_filename": "Christina Perri - A Thousand Years [Official Music Video] [rtOvBOTyX00].mp3",
+    "youtube": {
+      "youtube_title_v1": "Christina Perri - A Thousand Years [Official Music Video]",
+      "youtube_title_v2": "Christina Perri - A Thousand Years",
+      "youtube_title_v3": "A Thousand Years",
+      "youtube_artist": "Christina Perri"
+    },
+    "spotify": {
+      "title": "a thousand years",
+      "artist": "Christina Perri",
+      "album": "a thousand years",
+      "year": 2011,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2733dea4a2ccd58ad1f8e4dbb03"
+    }
+  },
+  "41": {
+    "original_filename": "Marshmello - Alone (Official Music Video) [ALZHF5UqnU4].mp3",
+    "youtube": {
+      "youtube_title_v1": "Marshmello - Alone (Official Music Video)",
+      "youtube_title_v2": "Marshmello - Alone",
+      "youtube_title_v3": "Alone",
+      "youtube_artist": "Marshmello"
+    },
+    "spotify": {
+      "title": "Alone",
+      "artist": "Marshmello",
+      "album": "Alone",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273956043cfb058f0be93022267"
+    }
+  },
+  "42": {
+    "original_filename": "The Weeknd - Starboy ft. Daft Punk (Official Video) [34Na4j8AVgA].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Weeknd - Starboy ft. Daft Punk (Official Video)",
+      "youtube_title_v2": "The Weeknd - Starboy ft. Daft Punk",
+      "youtube_title_v3": "Starboy",
+      "youtube_artist": "The Weeknd"
+    },
+    "spotify": {
+      "title": "Starboy",
+      "artist": "The Weeknd, Daft Punk",
+      "album": "Starboy",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452"
+    }
+  },
+  "43": {
+    "original_filename": "MAGIC! - Rude (Official Video) [PIh2xe4jnpk].mp3",
+    "youtube": {
+      "youtube_title_v1": "MAGIC! - Rude (Official Video)",
+      "youtube_title_v2": "MAGIC! - Rude",
+      "youtube_title_v3": "Rude",
+      "youtube_artist": "MAGIC!"
+    },
+    "spotify": {
+      "title": "Rude",
+      "artist": "MAGIC!",
+      "album": "Don't Kill the Magic",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d1c07acf34ebe0ca4aa6cbc1"
+    }
+  },
+  "44": {
+    "original_filename": "Becky G, Bad Bunny - Mayores (Official Video) [GMFewiplIbw].mp3",
+    "youtube": {
+      "youtube_title_v1": "Becky G, Bad Bunny - Mayores (Official Video)",
+      "youtube_title_v2": "Becky G, Bad Bunny - Mayores",
+      "youtube_title_v3": "Mayores",
+      "youtube_artist": "Becky G, Bad Bunny"
+    },
+    "spotify": {
+      "title": "Mayores",
+      "artist": "Becky G, Bad Bunny",
+      "album": "MALA SANTA",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2739c8890c824bb9be2360e79c1"
+    }
+  },
+  "45": {
+    "original_filename": "Jennifer Lopez - On The Floor ft. Pitbull [t4H_Zoh7G5A].mp3",
+    "youtube": {
+      "youtube_title_v1": "Jennifer Lopez - On The Floor ft. Pitbull",
+      "youtube_title_v2": "Jennifer Lopez - On The Floor ft. Pitbull",
+      "youtube_title_v3": "On The Floor",
+      "youtube_artist": "Jennifer Lopez"
+    },
+    "spotify": {
+      "title": "On The Floor",
+      "artist": "Jennifer Lopez, Pitbull",
+      "album": "Love?",
+      "year": 2011,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d7b2aa3834b82b1cbe899a48"
+    }
+  },
+  "46": {
+    "original_filename": "Shawn Mendes - Treat You Better [lY2yjAdbvdQ].mp3",
+    "youtube": {
+      "youtube_title_v1": "Shawn Mendes - Treat You Better",
+      "youtube_title_v2": "Shawn Mendes - Treat You Better",
+      "youtube_title_v3": "Treat You Better",
+      "youtube_artist": "Shawn Mendes"
+    },
+    "spotify": {
+      "title": "Treat You Better",
+      "artist": "Shawn Mendes",
+      "album": "Illuminate",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2731376b4b16f4bfcba02dc571b"
+    }
+  },
+  "47": {
+    "original_filename": "Casper, Nio García, Darell, Nicky Jam, Bad Bunny, Ozuna - Te Bote Remix (Video Oficial) [9jI-z9QN6g8].mp3",
+    "youtube": {
+      "youtube_title_v1": "Casper, Nio García, Darell, Nicky Jam, Bad Bunny, Ozuna - Te Bote Remix (Video Oficial)",
+      "youtube_title_v2": "Casper, Nio García, Darell, Nicky Jam, Bad Bunny, Ozuna - Te Bote Remix",
+      "youtube_title_v3": "Te Bote Remix",
+      "youtube_artist": "Casper, Nio García, Darell, Nicky Jam, Bad Bunny, Ozuna"
+    },
+    "spotify": {
+      "title": "Te Boté - Remix",
+      "artist": "Nio Garcia, Casper Magico, Bad Bunny, Darell, Ozuna, Nicky Jam",
+      "album": "Te Boté (Remix)",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273a5779a2f04a513fac2fd1d15"
+    }
+  },
+  "48": {
+    "original_filename": "John Legend - All of Me (Official Video) [450p7goxZqg].mp3",
+    "youtube": {
+      "youtube_title_v1": "John Legend - All of Me (Official Video)",
+      "youtube_title_v2": "John Legend - All of Me",
+      "youtube_title_v3": "All of Me",
+      "youtube_artist": "John Legend"
+    },
+    "spotify": {
+      "title": "All of Me",
+      "artist": "John Legend",
+      "album": "Love In The Future (Expanded Edition)",
+      "year": 2013,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27394c9217a398f5174757c0c78"
+    }
+  },
+  "49": {
+    "original_filename": "Numb (Official Music Video) [4K UPGRADE] – Linkin Park [kXYiU_JCYtU].mp3",
+    "youtube": {
+      "youtube_title_v1": "Numb (Official Music Video) [4K UPGRADE] – Linkin Park",
+      "youtube_title_v2": "Numb [4K UPGRADE] – Linkin Park",
+      "youtube_title_v3": "Numb [4K UPGRADE] – Linkin Park",
+      "youtube_artist": ""
+    },
+    "spotify": {}
+  },
+  "50": {
+    "original_filename": "J.Geco - Chicken Song [msSc7Mv0QHY].mp3",
+    "youtube": {
+      "youtube_title_v1": "J.Geco - Chicken Song",
+      "youtube_title_v2": "J.Geco - Chicken Song",
+      "youtube_title_v3": "Chicken Song",
+      "youtube_artist": "J.Geco"
+    },
+    "spotify": {
+      "title": "The Chicken Song (10 Years Anniversary)",
+      "artist": "J.Geco",
+      "album": "The Chicken Song (10 Years Anniversary)",
+      "year": 2023,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27334d2be6a03c05a1abc7614f4"
+    }
+  },
+  "51": {
+    "original_filename": "LMFAO - Party Rock Anthem ft. Lauren Bennett, GoonRock [KQ6zr6kCPj8].mp3",
+    "youtube": {
+      "youtube_title_v1": "LMFAO - Party Rock Anthem ft. Lauren Bennett, GoonRock",
+      "youtube_title_v2": "LMFAO - Party Rock Anthem ft. Lauren Bennett, GoonRock",
+      "youtube_title_v3": "Party Rock Anthem",
+      "youtube_artist": "LMFAO"
+    },
+    "spotify": {
+      "title": "Party Rock Anthem",
+      "artist": "LMFAO, Lauren Bennett, GoonRock",
+      "album": "Sorry For Party Rocking",
+      "year": 2011,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f30d6575306b5502236a429f"
+    }
+  },
+  "52": {
+    "original_filename": "Gotye - Somebody That I Used To Know (feat. Kimbra) [Official Music Video] [8UVNT4wvIGY].mp3",
+    "youtube": {
+      "youtube_title_v1": "Gotye - Somebody That I Used To Know (feat. Kimbra) [Official Music Video]",
+      "youtube_title_v2": "Gotye - Somebody That I Used To Know (feat. Kimbra)",
+      "youtube_title_v3": "Somebody That I Used To Know (feat. Kimbra)",
+      "youtube_artist": "Gotye"
+    },
+    "spotify": {
+      "title": "Somebody That I Used To Know - Tiësto Remix",
+      "artist": "Gotye, Kimbra, Tiësto",
+      "album": "Somebody That I Used To Know (Remixes)",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e72715688f633bf309ce1142"
+    }
+  },
+  "53": {
+    "original_filename": "Avicii - Wake Me Up (Official Video) [IcrbM1l_BoI].mp3",
+    "youtube": {
+      "youtube_title_v1": "Avicii - Wake Me Up (Official Video)",
+      "youtube_title_v2": "Avicii - Wake Me Up",
+      "youtube_title_v3": "Wake Me Up",
+      "youtube_artist": "Avicii"
+    },
+    "spotify": {
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "album": "True",
+      "year": 2013,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e14f11f796cef9f9a82691a7"
+    }
+  },
+  "54": {
+    "original_filename": "Luis Fonsi, Demi Lovato - Échame La Culpa [TyHvyGVs42U].mp3",
+    "youtube": {
+      "youtube_title_v1": "Luis Fonsi, Demi Lovato - Échame La Culpa",
+      "youtube_title_v2": "Luis Fonsi, Demi Lovato - Échame La Culpa",
+      "youtube_title_v3": "Échame La Culpa",
+      "youtube_artist": "Luis Fonsi, Demi Lovato"
+    },
+    "spotify": {
+      "title": "Échame La Culpa",
+      "artist": "Luis Fonsi, Demi Lovato",
+      "album": "VIDA",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273ef0d4234e1a645740f77d59c"
+    }
+  },
+  "55": {
+    "original_filename": "Rihanna - Diamonds [lWA2pjMjpBs].mp3",
+    "youtube": {
+      "youtube_title_v1": "Rihanna - Diamonds",
+      "youtube_title_v2": "Rihanna - Diamonds",
+      "youtube_title_v3": "Diamonds",
+      "youtube_artist": "Rihanna"
+    },
+    "spotify": {
+      "title": "Diamonds",
+      "artist": "Rihanna",
+      "album": "Unapologetic (Edited Version)",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273ab54aadb2320f1c687735d1e"
+    }
+  },
+  "56": {
+    "original_filename": "Jhay Cortez, J. Balvin, Bad Bunny - No Me Conoce (Remix) [w2C6RhQBYlg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Jhay Cortez, J. Balvin, Bad Bunny - No Me Conoce (Remix)",
+      "youtube_title_v2": "Jhay Cortez, J. Balvin, Bad Bunny - No Me Conoce (Remix)",
+      "youtube_title_v3": "No Me Conoce (Remix)",
+      "youtube_artist": "Jhay Cortez, J. Balvin, Bad Bunny"
+    },
+    "spotify": {
+      "title": "No Me Conoce - Remix",
+      "artist": "JHAYCO, J Balvin, Bad Bunny",
+      "album": "Famouz",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273614b5974ec6e23185462700b"
+    }
+  },
+  "57": {
+    "original_filename": "Bruno Mars - That’s What I Like [Official Music Video] [PMivT7MJ41M].mp3",
+    "youtube": {
+      "youtube_title_v1": "Bruno Mars - That’s What I Like [Official Music Video]",
+      "youtube_title_v2": "Bruno Mars - That’s What I Like",
+      "youtube_title_v3": "That’s What I Like",
+      "youtube_artist": "Bruno Mars"
+    },
+    "spotify": {
+      "title": "That's What I Like",
+      "artist": "Bruno Mars",
+      "album": "24K Magic",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273232711f7d66a1e19e89e28c5"
+    }
+  },
+  "58": {
+    "original_filename": "The Chainsmokers & Coldplay - Something Just Like This (Lyric) [FM7MFYoylVs].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Chainsmokers & Coldplay - Something Just Like This (Lyric)",
+      "youtube_title_v2": "The Chainsmokers & Coldplay - Something Just Like This (Lyric)",
+      "youtube_title_v3": "Something Just Like This (Lyric)",
+      "youtube_artist": "The Chainsmokers & Coldplay"
+    },
+    "spotify": {}
+  },
+  "59": {
+    "original_filename": "Ellie Goulding - Love Me Like You Do (Official Video) [AJtDXIazrMo].mp3",
+    "youtube": {
+      "youtube_title_v1": "Ellie Goulding - Love Me Like You Do (Official Video)",
+      "youtube_title_v2": "Ellie Goulding - Love Me Like You Do",
+      "youtube_title_v3": "Love Me Like You Do",
+      "youtube_artist": "Ellie Goulding"
+    },
+    "spotify": {
+      "title": "Love Me Like You Do",
+      "artist": "Ellie Goulding",
+      "album": "Fifty Shades Freed (Original Motion Picture Soundtrack)",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2736cd9798b6ace10ff98d1abdd"
+    }
+  },
+  "60": {
+    "original_filename": "Fifth Harmony - Worth It (Official Video) ft. Kid Ink [YBHQbu5rbdQ].mp3",
+    "youtube": {
+      "youtube_title_v1": "Fifth Harmony - Worth It (Official Video) ft. Kid Ink",
+      "youtube_title_v2": "Fifth Harmony - Worth It ft. Kid Ink",
+      "youtube_title_v3": "Worth It",
+      "youtube_artist": "Fifth Harmony"
+    },
+    "spotify": {
+      "title": "Worth It (feat. Kid Ink)",
+      "artist": "Fifth Harmony, Kid Ink",
+      "album": "Reflection (Deluxe)",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2735bdd9e580fdda5e676a25e6a"
+    }
+  },
+  "61": {
+    "original_filename": "50 Cent - In Da Club (Official Music Video) [5qm8PH4xAss].mp3",
+    "youtube": {
+      "youtube_title_v1": "50 Cent - In Da Club (Official Music Video)",
+      "youtube_title_v2": "50 Cent - In Da Club",
+      "youtube_title_v3": "In Da Club",
+      "youtube_artist": "50 Cent"
+    },
+    "spotify": {
+      "title": "In Da Club",
+      "artist": "50 Cent",
+      "album": "Get Rich Or Die Tryin'",
+      "year": 2003,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d843fabb75fef14010e30cae"
+    }
+  },
+  "62": {
+    "original_filename": "Ariana Grande ft. Nicki Minaj - Side To Side (Official Video) ft. Nicki Minaj [SXiSVQZLje8].mp3",
+    "youtube": {
+      "youtube_title_v1": "Ariana Grande ft. Nicki Minaj - Side To Side (Official Video) ft. Nicki Minaj",
+      "youtube_title_v2": "Ariana Grande ft. Nicki Minaj - Side To Side ft. Nicki Minaj",
+      "youtube_title_v3": "Side To Side",
+      "youtube_artist": "Ariana Grande ft. Nicki Minaj"
+    },
+    "spotify": {}
+  },
+  "63": {
+    "original_filename": "Adele - Someone Like You (Official Music Video) [hLQl3WQQoQ0].mp3",
+    "youtube": {
+      "youtube_title_v1": "Adele - Someone Like You (Official Music Video)",
+      "youtube_title_v2": "Adele - Someone Like You",
+      "youtube_title_v3": "Someone Like You",
+      "youtube_artist": "Adele"
+    },
+    "spotify": {
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273164feb363334f93b6458d2a9"
+    }
+  },
+  "64": {
+    "original_filename": "Guns N' Roses - November Rain [8SbUC-UaAxE].mp3",
+    "youtube": {
+      "youtube_title_v1": "Guns N' Roses - November Rain",
+      "youtube_title_v2": "Guns N' Roses - November Rain",
+      "youtube_title_v3": "November Rain",
+      "youtube_artist": "Guns N' Roses"
+    },
+    "spotify": {
+      "title": "November Rain",
+      "artist": "Guns N' Roses",
+      "album": "Use Your Illusion I",
+      "year": 1991,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e44963b8bb127552ac761873"
+    }
+  },
+  "65": {
+    "original_filename": "Romeo Santos - Propuesta Indecente (Official Video) [QFs3PIZb3js].mp3",
+    "youtube": {
+      "youtube_title_v1": "Romeo Santos - Propuesta Indecente (Official Video)",
+      "youtube_title_v2": "Romeo Santos - Propuesta Indecente",
+      "youtube_title_v3": "Propuesta Indecente",
+      "youtube_artist": "Romeo Santos"
+    },
+    "spotify": {
+      "title": "Propuesta Indecente",
+      "artist": "Romeo Santos",
+      "album": "Fórmula, Vol. 2 (Deluxe Edition)",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e9da42890bbd629df1e8f640"
+    }
+  },
+  "66": {
+    "original_filename": "ZAYN - Dusk Till Dawn (Official Video) ft. Sia [tt2k8PGm-TI].mp3",
+    "youtube": {
+      "youtube_title_v1": "ZAYN - Dusk Till Dawn (Official Video) ft. Sia",
+      "youtube_title_v2": "ZAYN - Dusk Till Dawn ft. Sia",
+      "youtube_title_v3": "Dusk Till Dawn",
+      "youtube_artist": "ZAYN"
+    },
+    "spotify": {
+      "title": "Dusk Till Dawn (feat. Sia) - Radio Edit",
+      "artist": "ZAYN, Sia",
+      "album": "Icarus Falls",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2732bdcb339402ebd78651f09c8"
+    }
+  },
+  "67": {
+    "original_filename": "Becky G, NATTI NATASHA - Sin Pijama (Official Video) [zEf423kYfqk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Becky G, NATTI NATASHA - Sin Pijama (Official Video)",
+      "youtube_title_v2": "Becky G, NATTI NATASHA - Sin Pijama",
+      "youtube_title_v3": "Sin Pijama",
+      "youtube_artist": "Becky G, NATTI NATASHA"
+    },
+    "spotify": {
+      "title": "Sin Pijama",
+      "artist": "Becky G, NATTI NATASHA",
+      "album": "MALA SANTA",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2739c8890c824bb9be2360e79c1"
+    }
+  },
+  "68": {
+    "original_filename": "Imagine Dragons - Thunder [fKopy74weus].mp3",
+    "youtube": {
+      "youtube_title_v1": "Imagine Dragons - Thunder",
+      "youtube_title_v2": "Imagine Dragons - Thunder",
+      "youtube_title_v3": "Thunder",
+      "youtube_artist": "Imagine Dragons"
+    },
+    "spotify": {
+      "title": "Thunder",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a"
+    }
+  },
+  "69": {
+    "original_filename": "Anuel AA, Daddy Yankee, Karol G, Ozuna & J Balvin - China (Video Oficial) [0VR3dfZf9Yg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Anuel AA, Daddy Yankee, Karol G, Ozuna & J Balvin - China (Video Oficial)",
+      "youtube_title_v2": "Anuel AA, Daddy Yankee, Karol G, Ozuna & J Balvin - China",
+      "youtube_title_v3": "China",
+      "youtube_artist": "Anuel AA, Daddy Yankee, Karol G, Ozuna & J Balvin"
+    },
+    "spotify": {
+      "title": "China",
+      "artist": "Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna",
+      "album": "China",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2735fa6dc9fc261344044c301a9"
+    }
+  },
+  "70": {
+    "original_filename": "Los Ángeles Azules - Nunca Es Suficiente ft. Natalia Lafourcade (Live) [k76BgIb89-s].mp3",
+    "youtube": {
+      "youtube_title_v1": "Los Ángeles Azules - Nunca Es Suficiente ft. Natalia Lafourcade (Live)",
+      "youtube_title_v2": "Los Ángeles Azules - Nunca Es Suficiente ft. Natalia Lafourcade",
+      "youtube_title_v3": "Nunca Es Suficiente",
+      "youtube_artist": "Los Ángeles Azules"
+    },
+    "spotify": {
+      "title": "Nunca Es Suficiente",
+      "artist": "Los Ángeles Azules, Natalia Lafourcade",
+      "album": "Esto Sí Es Cumbia",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273ba665c3ce15a992b68dbe2f3"
+    }
+  },
+  "71": {
+    "original_filename": "TONES AND I - DANCE MONKEY (OFFICIAL VIDEO) [q0hyYWKXF0Q].mp3",
+    "youtube": {
+      "youtube_title_v1": "TONES AND I - DANCE MONKEY (OFFICIAL VIDEO)",
+      "youtube_title_v2": "TONES AND I - DANCE MONKEY",
+      "youtube_title_v3": "DANCE MONKEY",
+      "youtube_artist": "TONES AND I"
+    },
+    "spotify": {
+      "title": "Dance Monkey",
+      "artist": "Tones And I",
+      "album": "Dance Monkey (Stripped Back) / Dance Monkey",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273c6f7af36ecdc3ed6e0a1f169"
+    }
+  },
+  "72": {
+    "original_filename": "ROSALÍA, J Balvin - Con Altura (Official Video) ft. El Guincho [p7bfOZek9t4].mp3",
+    "youtube": {
+      "youtube_title_v1": "ROSALÍA, J Balvin - Con Altura (Official Video) ft. El Guincho",
+      "youtube_title_v2": "ROSALÍA, J Balvin - Con Altura ft. El Guincho",
+      "youtube_title_v3": "Con Altura",
+      "youtube_artist": "ROSALÍA, J Balvin"
+    },
+    "spotify": {
+      "title": "Con Altura",
+      "artist": "ROSALÍA, J Balvin, El Guincho",
+      "album": "Con Altura",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27365b0e3e1bd8b5fe2f602c1ea"
+    }
+  },
+  "73": {
+    "original_filename": "Future - Life Is Good (Official Music Video) ft. Drake [l0U7SxXHkPY].mp3",
+    "youtube": {
+      "youtube_title_v1": "Future - Life Is Good (Official Music Video) ft. Drake",
+      "youtube_title_v2": "Future - Life Is Good ft. Drake",
+      "youtube_title_v3": "Life Is Good",
+      "youtube_artist": "Future"
+    },
+    "spotify": {
+      "title": "Life Is Good (feat. Drake)",
+      "artist": "Future, Drake",
+      "album": "Life Is Good (feat. Drake)",
+      "year": 2020,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738a01c7b77a34378a62f46402"
+    }
+  },
+  "74": {
+    "original_filename": "The Weeknd - The Hills [yzTuBuRdAyA].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Weeknd - The Hills",
+      "youtube_title_v2": "The Weeknd - The Hills",
+      "youtube_title_v3": "The Hills",
+      "youtube_artist": "The Weeknd"
+    },
+    "spotify": {
+      "title": "The Hills",
+      "artist": "The Weeknd",
+      "album": "Beauty Behind The Madness",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b"
+    }
+  },
+  "75": {
+    "original_filename": "The Chainsmokers - Don't Let Me Down (Official Video) ft. Daya [Io0fBr1XBUA].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Chainsmokers - Don't Let Me Down (Official Video) ft. Daya",
+      "youtube_title_v2": "The Chainsmokers - Don't Let Me Down ft. Daya",
+      "youtube_title_v3": "Don't Let Me Down",
+      "youtube_artist": "The Chainsmokers"
+    },
+    "spotify": {
+      "title": "Don't Let Me Down",
+      "artist": "The Chainsmokers, Daya",
+      "album": "Don't Let Me Down",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27302df2d642b572cf4f284a5c3"
+    }
+  },
+  "76": {
+    "original_filename": "Billie Eilish, Khalid - lovely [V1Pl8CzNzCw].mp3",
+    "youtube": {
+      "youtube_title_v1": "Billie Eilish, Khalid - lovely",
+      "youtube_title_v2": "Billie Eilish, Khalid - lovely",
+      "youtube_title_v3": "lovely",
+      "youtube_artist": "Billie Eilish, Khalid"
+    },
+    "spotify": {
+      "title": "lovely (with Khalid)",
+      "artist": "Billie Eilish, Khalid",
+      "album": "lovely (with Khalid)",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738a3f0a3ca7929dea23cd274c"
+    }
+  },
+  "77": {
+    "original_filename": "Eminem - Without Me (Official Music Video) [YVkUvmDQ3HY].mp3",
+    "youtube": {
+      "youtube_title_v1": "Eminem - Without Me (Official Music Video)",
+      "youtube_title_v2": "Eminem - Without Me",
+      "youtube_title_v3": "Without Me",
+      "youtube_artist": "Eminem"
+    },
+    "spotify": {
+      "title": "Without Me",
+      "artist": "Eminem",
+      "album": "The Eminem Show",
+      "year": 2002,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2736ca5c90113b30c3c43ffb8f4"
+    }
+  },
+  "78": {
+    "original_filename": "a-ha - Take On Me (Official Video) [Remastered in 4K] [djV11Xbc914].mp3",
+    "youtube": {
+      "youtube_title_v1": "a-ha - Take On Me (Official Video) [Remastered in 4K]",
+      "youtube_title_v2": "a-ha - Take On Me [Remastered in 4K]",
+      "youtube_title_v3": "Take On Me [Remastered in 4K]",
+      "youtube_artist": "a-ha"
+    },
+    "spotify": {}
+  },
+  "79": {
+    "original_filename": "Coldplay - Hymn For The Weekend (Official Video) [YykjpeuMNEk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Coldplay - Hymn For The Weekend (Official Video)",
+      "youtube_title_v2": "Coldplay - Hymn For The Weekend",
+      "youtube_title_v3": "Hymn For The Weekend",
+      "youtube_artist": "Coldplay"
+    },
+    "spotify": {
+      "title": "Hymn for the Weekend",
+      "artist": "Coldplay",
+      "album": "A Head Full of Dreams",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738ff7c3580d429c8212b9a3b6"
+    }
+  },
+  "80": {
+    "original_filename": "Piso 21 - Déjala Que Vuelva (feat. Manuel Turizo) [Video Oficial] [y7d9VLRO3vc].mp3",
+    "youtube": {
+      "youtube_title_v1": "Piso 21 - Déjala Que Vuelva (feat. Manuel Turizo) [Video Oficial]",
+      "youtube_title_v2": "Piso 21 - Déjala Que Vuelva (feat. Manuel Turizo)",
+      "youtube_title_v3": "Déjala Que Vuelva (feat. Manuel Turizo)",
+      "youtube_artist": "Piso 21"
+    },
+    "spotify": {
+      "title": "Déjala Que Vuelva (feat. Manuel Turizo)",
+      "artist": "Piso 21, Manuel Turizo",
+      "album": "Ubuntu",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738cf2d98b8cee7a46488a3c25"
+    }
+  },
+  "81": {
+    "original_filename": "J. Balvin - Ay Vamos (Official Video) [TapXs54Ah3E].mp3",
+    "youtube": {
+      "youtube_title_v1": "J. Balvin - Ay Vamos (Official Video)",
+      "youtube_title_v2": "J. Balvin - Ay Vamos",
+      "youtube_title_v3": "Ay Vamos",
+      "youtube_artist": "J. Balvin"
+    },
+    "spotify": {
+      "title": "Ay Vamos",
+      "artist": "J Balvin",
+      "album": "La Familia B Sides",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2734277da4c011dcc87f012bbab"
+    }
+  },
+  "82": {
+    "original_filename": "Drake - Hotline Bling [uxpDa-c-4Mc].mp3",
+    "youtube": {
+      "youtube_title_v1": "Drake - Hotline Bling",
+      "youtube_title_v2": "Drake - Hotline Bling",
+      "youtube_title_v3": "Hotline Bling",
+      "youtube_artist": "Drake"
+    },
+    "spotify": {
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "album": "Views",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c"
+    }
+  },
+  "83": {
+    "original_filename": "Jessie J - Bang Bang ft. Ariana Grande, Nicki Minaj [0HDdjwpPM3Y].mp3",
+    "youtube": {
+      "youtube_title_v1": "Jessie J - Bang Bang ft. Ariana Grande, Nicki Minaj",
+      "youtube_title_v2": "Jessie J - Bang Bang ft. Ariana Grande, Nicki Minaj",
+      "youtube_title_v3": "Bang Bang",
+      "youtube_artist": "Jessie J"
+    },
+    "spotify": {
+      "title": "Bang Bang",
+      "artist": "Jessie J, Ariana Grande, Nicki Minaj",
+      "album": "Sweet Talker (Deluxe Version)",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273930f686fe89425c7b6bf9a7d"
+    }
+  },
+  "84": {
+    "original_filename": "Bruno Mars - Just The Way You Are (Official Music Video) [LjhCEhWiKXk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Bruno Mars - Just The Way You Are (Official Music Video)",
+      "youtube_title_v2": "Bruno Mars - Just The Way You Are",
+      "youtube_title_v3": "Just The Way You Are",
+      "youtube_artist": "Bruno Mars"
+    },
+    "spotify": {
+      "title": "Just the Way You Are",
+      "artist": "Bruno Mars",
+      "album": "Doo-Wops & Hooligans",
+      "year": 2010,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f60070dce96a2c1b70cf6ff0"
+    }
+  },
+  "85": {
+    "original_filename": "Daddy Yankee - Dura (Video Oficial) [sGIm0-dQd8M].mp3",
+    "youtube": {
+      "youtube_title_v1": "Daddy Yankee - Dura (Video Oficial)",
+      "youtube_title_v2": "Daddy Yankee - Dura",
+      "youtube_title_v3": "Dura",
+      "youtube_artist": "Daddy Yankee"
+    },
+    "spotify": {
+      "title": "Dura",
+      "artist": "Daddy Yankee",
+      "album": "Dura",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27388b0cdcb7bf3515e40ba20a0"
+    }
+  },
+  "86": {
+    "original_filename": "Camila Cabello - Havana (Audio) ft. Young Thug [HCjNJDNzw8Y].mp3",
+    "youtube": {
+      "youtube_title_v1": "Camila Cabello - Havana (Audio) ft. Young Thug",
+      "youtube_title_v2": "Camila Cabello - Havana (Audio) ft. Young Thug",
+      "youtube_title_v3": "Havana (Audio)",
+      "youtube_artist": "Camila Cabello"
+    },
+    "spotify": {}
+  },
+  "87": {
+    "original_filename": "Rag'n'Bone Man - Human (Official Video) [L3wKzyIN1yk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Rag'n'Bone Man - Human (Official Video)",
+      "youtube_title_v2": "Rag'n'Bone Man - Human",
+      "youtube_title_v3": "Human",
+      "youtube_artist": "Rag'n'Bone Man"
+    },
+    "spotify": {
+      "title": "Human",
+      "artist": "Rag'n'Bone Man",
+      "album": "Human (Deluxe)",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27390a788beadaad34ff684d3ec"
+    }
+  },
+  "88": {
+    "original_filename": "In The End [Official HD Music Video] - Linkin Park [eVTXPUF4Oz4].mp3",
+    "youtube": {
+      "youtube_title_v1": "In The End [Official HD Music Video] - Linkin Park",
+      "youtube_title_v2": "In The End [Official HD Music Video] - Linkin Park",
+      "youtube_title_v3": "Linkin Park",
+      "youtube_artist": "In The End [Official HD Music Video]"
+    },
+    "spotify": {}
+  },
+  "89": {
+    "original_filename": "David Guetta - Titanium ft. Sia (Official Video) [JRfuAukYTKg].mp3",
+    "youtube": {
+      "youtube_title_v1": "David Guetta - Titanium ft. Sia (Official Video)",
+      "youtube_title_v2": "David Guetta - Titanium ft. Sia",
+      "youtube_title_v3": "Titanium",
+      "youtube_artist": "David Guetta"
+    },
+    "spotify": {
+      "title": "Titanium (feat. Sia)",
+      "artist": "David Guetta, Sia",
+      "album": "Nothing but the Beat Ultimate",
+      "year": 2011,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273bd5ba80ea2ad342e488ba54d"
+    }
+  },
+  "90": {
+    "original_filename": "Nirvana - Smells Like Teen Spirit (Official Music Video) [hTWKbfoikeg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Nirvana - Smells Like Teen Spirit (Official Music Video)",
+      "youtube_title_v2": "Nirvana - Smells Like Teen Spirit",
+      "youtube_title_v3": "Smells Like Teen Spirit",
+      "youtube_artist": "Nirvana"
+    },
+    "spotify": {
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind (Remastered)",
+      "year": 1991,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6"
+    }
+  },
+  "91": {
+    "original_filename": "Ozuna x Romeo Santos - El Farsante (Remix) (Video Oficial) [wfWkmURBNv8].mp3",
+    "youtube": {
+      "youtube_title_v1": "Ozuna x Romeo Santos - El Farsante (Remix) (Video Oficial)",
+      "youtube_title_v2": "Ozuna x Romeo Santos - El Farsante (Remix)",
+      "youtube_title_v3": "El Farsante (Remix)",
+      "youtube_artist": "Ozuna x Romeo Santos"
+    },
+    "spotify": {}
+  },
+  "92": {
+    "original_filename": "Eminem - Not Afraid [j5-yKhDd64s].mp3",
+    "youtube": {
+      "youtube_title_v1": "Eminem - Not Afraid",
+      "youtube_title_v2": "Eminem - Not Afraid",
+      "youtube_title_v3": "Not Afraid",
+      "youtube_artist": "Eminem"
+    },
+    "spotify": {
+      "title": "Not Afraid",
+      "artist": "Eminem",
+      "album": "Recovery",
+      "year": 2010,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273c08d5fa5c0f1a834acef5100"
+    }
+  },
+  "93": {
+    "original_filename": "Danny Ocean -  Me Rehúso (Official Audio) [aDCcLQto5BM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Danny Ocean -  Me Rehúso (Official Audio)",
+      "youtube_title_v2": "Danny Ocean -  Me Rehúso (Official Audio)",
+      "youtube_title_v3": "Me Rehúso (Official Audio)",
+      "youtube_artist": "Danny Ocean"
+    },
+    "spotify": {}
+  },
+  "94": {
+    "original_filename": "Coldplay - Paradise (Official Video) [1G4isv_Fylg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Coldplay - Paradise (Official Video)",
+      "youtube_title_v2": "Coldplay - Paradise",
+      "youtube_title_v3": "Paradise",
+      "youtube_artist": "Coldplay"
+    },
+    "spotify": {
+      "title": "Paradise",
+      "artist": "Coldplay",
+      "album": "Mylo Xyloto",
+      "year": 2011,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273de0cd11d7b31c3bd1fd5983d"
+    }
+  },
+  "95": {
+    "original_filename": "Ricky Martin - Vente Pa' Ca (Official Video) ft. Maluma [iOe6dI2JhgU].mp3",
+    "youtube": {
+      "youtube_title_v1": "Ricky Martin - Vente Pa' Ca (Official Video) ft. Maluma",
+      "youtube_title_v2": "Ricky Martin - Vente Pa' Ca ft. Maluma",
+      "youtube_title_v3": "Vente Pa' Ca",
+      "youtube_artist": "Ricky Martin"
+    },
+    "spotify": {
+      "title": "Vente Pa' Ca (feat. Maluma)",
+      "artist": "Ricky Martin, Maluma",
+      "album": "Vente Pa' Ca (feat. Maluma)",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2733d90f5938459be40b7b6652a"
+    }
+  },
+  "96": {
+    "original_filename": "Maluma - Felices los 4 (Official Video) [t_jHrUE5IOk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Maluma - Felices los 4 (Official Video)",
+      "youtube_title_v2": "Maluma - Felices los 4",
+      "youtube_title_v3": "Felices los 4",
+      "youtube_artist": "Maluma"
+    },
+    "spotify": {
+      "title": "Felices los 4",
+      "artist": "Maluma",
+      "album": "F.A.M.E.",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2739fa9c0acaf11becc12d22300"
+    }
+  },
+  "97": {
+    "original_filename": "Sia - Cheap Thrills (Official Lyric Video) ft. Sean Paul [nYh-n7EOtMA].mp3",
+    "youtube": {
+      "youtube_title_v1": "Sia - Cheap Thrills (Official Lyric Video) ft. Sean Paul",
+      "youtube_title_v2": "Sia - Cheap Thrills ft. Sean Paul",
+      "youtube_title_v3": "Cheap Thrills",
+      "youtube_artist": "Sia"
+    },
+    "spotify": {
+      "title": "Cheap Thrills",
+      "artist": "Sia",
+      "album": "This Is Acting (Deluxe Version)",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273754b2fddebe7039fdb912837"
+    }
+  },
+  "98": {
+    "original_filename": "Lady Gaga - Bad Romance (Official Music Video) [qrO4YZeyl0I].mp3",
+    "youtube": {
+      "youtube_title_v1": "Lady Gaga - Bad Romance (Official Music Video)",
+      "youtube_title_v2": "Lady Gaga - Bad Romance",
+      "youtube_title_v3": "Bad Romance",
+      "youtube_artist": "Lady Gaga"
+    },
+    "spotify": {
+      "title": "Bad Romance",
+      "artist": "Lady Gaga",
+      "album": "The Fame Monster (Deluxe Edition)",
+      "year": 2009,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2735c9890c0456a3719eeecd8aa"
+    }
+  },
+  "99": {
+    "original_filename": "MACKLEMORE & RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO) [QK8mJJJvaes].mp3",
+    "youtube": {
+      "youtube_title_v1": "MACKLEMORE & RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO)",
+      "youtube_title_v2": "MACKLEMORE & RYAN LEWIS - THRIFT SHOP FEAT. WANZ",
+      "youtube_title_v3": "THRIFT SHOP FEAT. WANZ",
+      "youtube_artist": "MACKLEMORE & RYAN LEWIS"
+    },
+    "spotify": {
+      "title": "Thrift Shop (feat. Wanz)",
+      "artist": "Macklemore & Ryan Lewis, Macklemore, Ryan Lewis, Wanz",
+      "album": "The Heist",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2732a6b364528b128a4a17d100d"
+    }
+  },
+  "100": {
+    "original_filename": "Queen – Bohemian Rhapsody (Official Video Remastered) [fJ9rUzIMcZQ].mp3",
+    "youtube": {
+      "youtube_title_v1": "Queen – Bohemian Rhapsody (Official Video Remastered)",
+      "youtube_title_v2": "Queen – Bohemian Rhapsody (Official Video Remastered)",
+      "youtube_title_v3": "Queen – Bohemian Rhapsody (Official Video Remastered)",
+      "youtube_artist": ""
+    },
+    "spotify": {}
+  },
+  "101": {
+    "original_filename": "The Weeknd - Save Your Tears (Official Music Video) [XXYlFuWEuKI].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Weeknd - Save Your Tears (Official Music Video)",
+      "youtube_title_v2": "The Weeknd - Save Your Tears",
+      "youtube_title_v3": "Save Your Tears",
+      "youtube_artist": "The Weeknd"
+    },
+    "spotify": {
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "year": 2020,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+    }
+  },
+  "102": {
+    "original_filename": "4 Non Blondes - What's Up (Official Music Video) [6NXnxTNIWkc].mp3",
+    "youtube": {
+      "youtube_title_v1": "4 Non Blondes - What's Up (Official Music Video)",
+      "youtube_title_v2": "4 Non Blondes - What's Up",
+      "youtube_title_v3": "What's Up",
+      "youtube_artist": "4 Non Blondes"
+    },
+    "spotify": {
+      "title": "What's Up?",
+      "artist": "4 Non Blondes",
+      "album": "Bigger, Better, Faster, More !",
+      "year": 1992,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273381371cb8ce680d0dc324600"
+    }
+  },
+  "103": {
+    "original_filename": "P!nk - Just Give Me A Reason ft. Nate Ruess [OpQFFLBMEPI].mp3",
+    "youtube": {
+      "youtube_title_v1": "P!nk - Just Give Me A Reason ft. Nate Ruess",
+      "youtube_title_v2": "P!nk - Just Give Me A Reason ft. Nate Ruess",
+      "youtube_title_v3": "Just Give Me A Reason",
+      "youtube_artist": "P!nk"
+    },
+    "spotify": {
+      "title": "Just Give Me a Reason (feat. Nate Ruess)",
+      "artist": "P!nk, Nate Ruess",
+      "album": "The Truth About Love",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2739d0f0d226987b449808e7b6f"
+    }
+  },
+  "104": {
+    "original_filename": "Chino y Nacho - Andas En Mi Cabeza ft. Daddy Yankee (Video Oficial) [AMTAQ-AJS4Y].mp3",
+    "youtube": {
+      "youtube_title_v1": "Chino y Nacho - Andas En Mi Cabeza ft. Daddy Yankee (Video Oficial)",
+      "youtube_title_v2": "Chino y Nacho - Andas En Mi Cabeza ft. Daddy Yankee",
+      "youtube_title_v3": "Andas En Mi Cabeza",
+      "youtube_artist": "Chino y Nacho"
+    },
+    "spotify": {
+      "title": "Andas En Mi Cabeza",
+      "artist": "Chino & Nacho, Daddy Yankee",
+      "album": "Andas En Mi Cabeza",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2736df5cc472d61a635abab06cf"
+    }
+  },
+  "105": {
+    "original_filename": "CNCO - Reggaetón Lento (Bailemos) [7jpqqBX-Myw].mp3",
+    "youtube": {
+      "youtube_title_v1": "CNCO - Reggaetón Lento (Bailemos)",
+      "youtube_title_v2": "CNCO - Reggaetón Lento (Bailemos)",
+      "youtube_title_v3": "Reggaetón Lento (Bailemos)",
+      "youtube_artist": "CNCO"
+    },
+    "spotify": {
+      "title": "Reggaetón Lento (Bailemos)",
+      "artist": "CNCO",
+      "album": "Primera Cita",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2737db0f7ac4c612cce26ccacf9"
+    }
+  },
+  "106": {
+    "original_filename": "Carlos Vives, Sebastián Yatra - Robarte un Beso (Official Video) [Mtau4v6foHA].mp3",
+    "youtube": {
+      "youtube_title_v1": "Carlos Vives, Sebastián Yatra - Robarte un Beso (Official Video)",
+      "youtube_title_v2": "Carlos Vives, Sebastián Yatra - Robarte un Beso",
+      "youtube_title_v3": "Robarte un Beso",
+      "youtube_artist": "Carlos Vives, Sebastián Yatra"
+    },
+    "spotify": {
+      "title": "Robarte un Beso",
+      "artist": "Carlos Vives, Sebastian Yatra",
+      "album": "VIVES",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273575fb66ec11e54fb68d548a5"
+    }
+  },
+  "107": {
+    "original_filename": "DJ Khaled - I'm The One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne [weeI1G46q0o].mp3",
+    "youtube": {
+      "youtube_title_v1": "DJ Khaled - I'm The One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne",
+      "youtube_title_v2": "DJ Khaled - I'm The One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne",
+      "youtube_title_v3": "I'm The One",
+      "youtube_artist": "DJ Khaled"
+    },
+    "spotify": {
+      "title": "I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)",
+      "artist": "DJ Khaled, Justin Bieber, Quavo, Chance the Rapper, Lil Wayne",
+      "album": "Grateful",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f2b55cfff049e03f92834b50"
+    }
+  },
+  "108": {
+    "original_filename": "Alex Rose  ft. Cazzu, Lenny Tavarez, Lyanno & Rauw Alejandro - Toda (Remix) [Video Oficial] [lKDGxAHZt0E].mp3",
+    "youtube": {
+      "youtube_title_v1": "Alex Rose  ft. Cazzu, Lenny Tavarez, Lyanno & Rauw Alejandro - Toda (Remix) [Video Oficial]",
+      "youtube_title_v2": "Alex Rose  ft. Cazzu, Lenny Tavarez, Lyanno & Rauw Alejandro - Toda (Remix)",
+      "youtube_title_v3": "Toda (Remix)",
+      "youtube_artist": "Alex Rose  ft. Cazzu, Lenny Tavarez, Lyanno & Rauw Alejandro"
+    },
+    "spotify": {}
+  },
+  "109": {
+    "original_filename": "Michael Jackson - Billie Jean (Official Video) [Zi_XLOBDo_Y].mp3",
+    "youtube": {
+      "youtube_title_v1": "Michael Jackson - Billie Jean (Official Video)",
+      "youtube_title_v2": "Michael Jackson - Billie Jean",
+      "youtube_title_v3": "Billie Jean",
+      "youtube_artist": "Michael Jackson"
+    },
+    "spotify": {
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97"
+    }
+  },
+  "110": {
+    "original_filename": "Jason Derulo - Swalla (feat. Nicki Minaj & Ty Dolla $ign) [Official Music Video] [NGLxoKOvzu4].mp3",
+    "youtube": {
+      "youtube_title_v1": "Jason Derulo - Swalla (feat. Nicki Minaj & Ty Dolla $ign) [Official Music Video]",
+      "youtube_title_v2": "Jason Derulo - Swalla (feat. Nicki Minaj & Ty Dolla $ign)",
+      "youtube_title_v3": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)",
+      "youtube_artist": "Jason Derulo"
+    },
+    "spotify": {
+      "title": "Swalla (feat. Nicki Minaj & Ty Dolla $ign)",
+      "artist": "Jason Derulo, Nicki Minaj, Ty Dolla $ign",
+      "album": "Nu King",
+      "year": 2024,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27354bdca52fa6d58a84bf7c28d"
+    }
+  },
+  "111": {
+    "original_filename": "BLACKPINK - 'How You Like That' DANCE PERFORMANCE VIDEO [32si5cfrCNc].mp3",
+    "youtube": {
+      "youtube_title_v1": "BLACKPINK - 'How You Like That' DANCE PERFORMANCE VIDEO",
+      "youtube_title_v2": "BLACKPINK - 'How You Like That' DANCE PERFORMANCE VIDEO",
+      "youtube_title_v3": "'How You Like That' DANCE PERFORMANCE VIDEO",
+      "youtube_artist": "BLACKPINK"
+    },
+    "spotify": {}
+  },
+  "112": {
+    "original_filename": "French Montana - Unforgettable ft. Swae Lee [CTFtOOh47oo].mp3",
+    "youtube": {
+      "youtube_title_v1": "French Montana - Unforgettable ft. Swae Lee",
+      "youtube_title_v2": "French Montana - Unforgettable ft. Swae Lee",
+      "youtube_title_v3": "Unforgettable",
+      "youtube_artist": "French Montana"
+    },
+    "spotify": {
+      "title": "Unforgettable",
+      "artist": "French Montana, Swae Lee",
+      "album": "Jungle Rules",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738a31195a371b2233456f6c07"
+    }
+  },
+  "113": {
+    "original_filename": "Martin Garrix - Animals (Official Video) [gCYcHz2k5x0].mp3",
+    "youtube": {
+      "youtube_title_v1": "Martin Garrix - Animals (Official Video)",
+      "youtube_title_v2": "Martin Garrix - Animals",
+      "youtube_title_v3": "Animals",
+      "youtube_artist": "Martin Garrix"
+    },
+    "spotify": {
+      "title": "Animals",
+      "artist": "Martin Garrix",
+      "album": "Animals",
+      "year": 2013,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2736abad6915a2216dc18e7e3a7"
+    }
+  },
+  "114": {
+    "original_filename": "Shawn Mendes, Camila Cabello - Señorita [Pkh8UtuejGw].mp3",
+    "youtube": {
+      "youtube_title_v1": "Shawn Mendes, Camila Cabello - Señorita",
+      "youtube_title_v2": "Shawn Mendes, Camila Cabello - Señorita",
+      "youtube_title_v3": "Señorita",
+      "youtube_artist": "Shawn Mendes, Camila Cabello"
+    },
+    "spotify": {
+      "title": "Señorita",
+      "artist": "Shawn Mendes, Camila Cabello",
+      "album": "Shawn Mendes (Deluxe)",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273c820f033bd82bef4355d1563"
+    }
+  },
+  "115": {
+    "original_filename": "CantaJuego - Soy Una Taza (Version Mexico) [cgEnBkmcpuQ].mp3",
+    "youtube": {
+      "youtube_title_v1": "CantaJuego - Soy Una Taza (Version Mexico)",
+      "youtube_title_v2": "CantaJuego - Soy Una Taza (Version Mexico)",
+      "youtube_title_v3": "Soy Una Taza (Version Mexico)",
+      "youtube_artist": "CantaJuego"
+    },
+    "spotify": {
+      "title": "Soy una Taza (Versión 2019)",
+      "artist": "CantaJuego",
+      "album": "SuperÉxitos en México",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e5bb580dcaad909ab1f05357"
+    }
+  },
+  "116": {
+    "original_filename": "Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video) [bo_efYhYU2A].mp3",
+    "youtube": {
+      "youtube_title_v1": "Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video)",
+      "youtube_title_v2": "Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born)",
+      "youtube_title_v3": "Shallow (from A Star Is Born)",
+      "youtube_artist": "Lady Gaga, Bradley Cooper"
+    },
+    "spotify": {}
+  },
+  "117": {
+    "original_filename": "Sam Smith - I'm Not The Only One (Official Music Video) [nCkpzqqog4k].mp3",
+    "youtube": {
+      "youtube_title_v1": "Sam Smith - I'm Not The Only One (Official Music Video)",
+      "youtube_title_v2": "Sam Smith - I'm Not The Only One",
+      "youtube_title_v3": "I'm Not The Only One",
+      "youtube_artist": "Sam Smith"
+    },
+    "spotify": {
+      "title": "I'm Not The Only One",
+      "artist": "Sam Smith",
+      "album": "In The Lonely Hour",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273b11bdc91cb9ac6b14f5c1dae"
+    }
+  },
+  "118": {
+    "original_filename": "Guns N' Roses - Sweet Child O' Mine (Official Music Video) [1w7OgIMMRc4].mp3",
+    "youtube": {
+      "youtube_title_v1": "Guns N' Roses - Sweet Child O' Mine (Official Music Video)",
+      "youtube_title_v2": "Guns N' Roses - Sweet Child O' Mine",
+      "youtube_title_v3": "Sweet Child O' Mine",
+      "youtube_artist": "Guns N' Roses"
+    },
+    "spotify": {
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "album": "Appetite For Destruction",
+      "year": 1987,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27321ebf49b3292c3f0f575f0f5"
+    }
+  },
+  "119": {
+    "original_filename": "Carlos Vives, Shakira - La Bicicleta [-UV0QGLmYys].mp3",
+    "youtube": {
+      "youtube_title_v1": "Carlos Vives, Shakira - La Bicicleta",
+      "youtube_title_v2": "Carlos Vives, Shakira - La Bicicleta",
+      "youtube_title_v3": "La Bicicleta",
+      "youtube_artist": "Carlos Vives, Shakira"
+    },
+    "spotify": {
+      "title": "La Bicicleta",
+      "artist": "Carlos Vives, Shakira",
+      "album": "VIVES",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273575fb66ec11e54fb68d548a5"
+    }
+  },
+  "120": {
+    "original_filename": "Whitney Houston - I Will Always Love You (Official 4K Video) [3JWTaaS7LdU].mp3",
+    "youtube": {
+      "youtube_title_v1": "Whitney Houston - I Will Always Love You (Official 4K Video)",
+      "youtube_title_v2": "Whitney Houston - I Will Always Love You (Official 4K Video)",
+      "youtube_title_v3": "I Will Always Love You (Official 4K Video)",
+      "youtube_artist": "Whitney Houston"
+    },
+    "spotify": {}
+  },
+  "121": {
+    "original_filename": "Coolio - Gangsta's Paradise (feat. L.V.) [Official Music Video] [fPO76Jlnz6c].mp3",
+    "youtube": {
+      "youtube_title_v1": "Coolio - Gangsta's Paradise (feat. L.V.) [Official Music Video]",
+      "youtube_title_v2": "Coolio - Gangsta's Paradise (feat. L.V.)",
+      "youtube_title_v3": "Gangsta's Paradise (feat. L.V.)",
+      "youtube_artist": "Coolio"
+    },
+    "spotify": {
+      "title": "Gangsta's Paradise (feat. L.V.)",
+      "artist": "Coolio, L.V.",
+      "album": "Greatest Hits",
+      "year": 2025,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273eab63d6450e5e275c3421181"
+    }
+  },
+  "122": {
+    "original_filename": "Daddy Yankee - Shaky Shaky (Video Oficial) [aKuivabiOns].mp3",
+    "youtube": {
+      "youtube_title_v1": "Daddy Yankee - Shaky Shaky (Video Oficial)",
+      "youtube_title_v2": "Daddy Yankee - Shaky Shaky",
+      "youtube_title_v3": "Shaky Shaky",
+      "youtube_artist": "Daddy Yankee"
+    },
+    "spotify": {
+      "title": "Shaky Shaky",
+      "artist": "Daddy Yankee",
+      "album": "Shaky Shaky",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273144e8c5692fe724db38a9688"
+    }
+  },
+  "123": {
+    "original_filename": "James Arthur - Say You Won't Let Go [0yW7w8F2TVA].mp3",
+    "youtube": {
+      "youtube_title_v1": "James Arthur - Say You Won't Let Go",
+      "youtube_title_v2": "James Arthur - Say You Won't Let Go",
+      "youtube_title_v3": "Say You Won't Let Go",
+      "youtube_artist": "James Arthur"
+    },
+    "spotify": {
+      "title": "Say You Won't Let Go",
+      "artist": "James Arthur",
+      "album": "Back from the Edge",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27320beb61f61fcbeb33b10a9ab"
+    }
+  },
+  "124": {
+    "original_filename": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix) (Explicit) [foE1mO2yM04].mp3",
+    "youtube": {
+      "youtube_title_v1": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix) (Explicit)",
+      "youtube_title_v2": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix) (Explicit)",
+      "youtube_title_v3": "I Took A Pill In Ibiza (Seeb Remix) (Explicit)",
+      "youtube_artist": "Mike Posner"
+    },
+    "spotify": {}
+  },
+  "125": {
+    "original_filename": "Carly Rae Jepsen - Call Me Maybe [fWNaR-rxAic].mp3",
+    "youtube": {
+      "youtube_title_v1": "Carly Rae Jepsen - Call Me Maybe",
+      "youtube_title_v2": "Carly Rae Jepsen - Call Me Maybe",
+      "youtube_title_v3": "Call Me Maybe",
+      "youtube_artist": "Carly Rae Jepsen"
+    },
+    "spotify": {
+      "title": "Call Me Maybe",
+      "artist": "Carly Rae Jepsen",
+      "album": "Kiss",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d3ee4bf67c2ac2154006ad72"
+    }
+  },
+  "126": {
+    "original_filename": "Bruno Mars - 24K Magic (Official Music Video) [UqyT8IEBkvY].mp3",
+    "youtube": {
+      "youtube_title_v1": "Bruno Mars - 24K Magic (Official Music Video)",
+      "youtube_title_v2": "Bruno Mars - 24K Magic",
+      "youtube_title_v3": "24K Magic",
+      "youtube_artist": "Bruno Mars"
+    },
+    "spotify": {
+      "title": "24K Magic",
+      "artist": "Bruno Mars",
+      "album": "24K Magic",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273232711f7d66a1e19e89e28c5"
+    }
+  },
+  "127": {
+    "original_filename": "Maluma - Corazón (Official Video) ft. Nego do Borel [GmHrjFIWl6U].mp3",
+    "youtube": {
+      "youtube_title_v1": "Maluma - Corazón (Official Video) ft. Nego do Borel",
+      "youtube_title_v2": "Maluma - Corazón ft. Nego do Borel",
+      "youtube_title_v3": "Corazón",
+      "youtube_artist": "Maluma"
+    },
+    "spotify": {
+      "title": "Corazón (feat. Nego do Borel)",
+      "artist": "Maluma, Nego do Borel",
+      "album": "F.A.M.E.",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2739fa9c0acaf11becc12d22300"
+    }
+  },
+  "128": {
+    "original_filename": "Nelly - Dilemma (Official Music Video) ft. Kelly Rowland [8WYHDfJDPDc].mp3",
+    "youtube": {
+      "youtube_title_v1": "Nelly - Dilemma (Official Music Video) ft. Kelly Rowland",
+      "youtube_title_v2": "Nelly - Dilemma ft. Kelly Rowland",
+      "youtube_title_v3": "Dilemma",
+      "youtube_artist": "Nelly"
+    },
+    "spotify": {
+      "title": "Dilemma",
+      "artist": "Nelly, Kelly Rowland",
+      "album": "Nellyville",
+      "year": 2002,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273a8b9f97b9ea065b9a857e93f"
+    }
+  },
+  "129": {
+    "original_filename": "HA-ASH - Lo Aprendí de Ti (Primera Fila - Hecho Realidad [En Vivo]) [Uws510cVia4].mp3",
+    "youtube": {
+      "youtube_title_v1": "HA-ASH - Lo Aprendí de Ti (Primera Fila - Hecho Realidad [En Vivo])",
+      "youtube_title_v2": "HA-ASH - Lo Aprendí de Ti (Primera Fila - Hecho Realidad [En Vivo])",
+      "youtube_title_v3": "Lo Aprendí de Ti (Primera Fila - Hecho Realidad [En Vivo])",
+      "youtube_artist": "HA-ASH"
+    },
+    "spotify": {
+      "title": "Lo Aprendí de Ti - HA-ASH Primera Fila - Hecho Realidad [En Vivo]",
+      "artist": "Ha*Ash",
+      "album": "HA-ASH Primera Fila - Hecho Realidad",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273996dd344d4aa79463b40bb8f"
+    }
+  },
+  "130": {
+    "original_filename": "Calvin Harris - Summer (Official Video) [ebXbLfLACGM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Calvin Harris - Summer (Official Video)",
+      "youtube_title_v2": "Calvin Harris - Summer",
+      "youtube_title_v3": "Summer",
+      "youtube_artist": "Calvin Harris"
+    },
+    "spotify": {
+      "title": "Summer",
+      "artist": "Calvin Harris",
+      "album": "Motion",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738fba5806a323efd272677c4d"
+    }
+  },
+  "131": {
+    "original_filename": "Wisin - Escápate Conmigo (Official Video) ft. Ozuna [3X9wEwulYhk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Wisin - Escápate Conmigo (Official Video) ft. Ozuna",
+      "youtube_title_v2": "Wisin - Escápate Conmigo ft. Ozuna",
+      "youtube_title_v3": "Escápate Conmigo",
+      "youtube_artist": "Wisin"
+    },
+    "spotify": {
+      "title": "Escápate Conmigo (feat. Ozuna)",
+      "artist": "Wisin, Ozuna",
+      "album": "Victory",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273c7524a697e709517b50681b2"
+    }
+  },
+  "132": {
+    "original_filename": "David Guetta - Hey Mama (Official Video) ft Nicki Minaj, Bebe Rexha & Afrojack [uO59tfQ2TbA].mp3",
+    "youtube": {
+      "youtube_title_v1": "David Guetta - Hey Mama (Official Video) ft Nicki Minaj, Bebe Rexha & Afrojack",
+      "youtube_title_v2": "David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack",
+      "youtube_title_v3": "Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack",
+      "youtube_artist": "David Guetta"
+    },
+    "spotify": {}
+  },
+  "133": {
+    "original_filename": "Taylor Swift - You Belong With Me [VuNIsY6JdUw].mp3",
+    "youtube": {
+      "youtube_title_v1": "Taylor Swift - You Belong With Me",
+      "youtube_title_v2": "Taylor Swift - You Belong With Me",
+      "youtube_title_v3": "You Belong With Me",
+      "youtube_artist": "Taylor Swift"
+    },
+    "spotify": {
+      "title": "You Belong With Me (Taylor’s Version)",
+      "artist": "Taylor Swift",
+      "album": "Fearless (Taylor's Version)",
+      "year": 2021,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273a48964b5d9a3d6968ae3e0de"
+    }
+  },
+  "134": {
+    "original_filename": "The Cranberries - Zombie (Official Music Video) [6Ejga4kJUts].mp3",
+    "youtube": {
+      "youtube_title_v1": "The Cranberries - Zombie (Official Music Video)",
+      "youtube_title_v2": "The Cranberries - Zombie",
+      "youtube_title_v3": "Zombie",
+      "youtube_artist": "The Cranberries"
+    },
+    "spotify": {
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+      "year": 1994,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27372d481a5999197ef5f42f796"
+    }
+  },
+  "135": {
+    "original_filename": "Rahat Fateh Ali Khan - Zaroori Tha [6-n_szx2XRE].mp3",
+    "youtube": {
+      "youtube_title_v1": "Rahat Fateh Ali Khan - Zaroori Tha",
+      "youtube_title_v2": "Rahat Fateh Ali Khan - Zaroori Tha",
+      "youtube_title_v3": "Zaroori Tha",
+      "youtube_artist": "Rahat Fateh Ali Khan"
+    },
+    "spotify": {
+      "title": "Zaroori Tha",
+      "artist": "Rahat Fateh Ali Khan",
+      "album": "Back 2 Love",
+      "year": 2014,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27361e0b61e11706b9acff50231"
+    }
+  },
+  "136": {
+    "original_filename": "Beyoncé - Halo [bnVUHWCynig].mp3",
+    "youtube": {
+      "youtube_title_v1": "Beyoncé - Halo",
+      "youtube_title_v2": "Beyoncé - Halo",
+      "youtube_title_v3": "Halo",
+      "youtube_artist": "Beyoncé"
+    },
+    "spotify": {
+      "title": "Halo",
+      "artist": "Beyoncé",
+      "album": "I AM...SASHA FIERCE - Platinum Edition",
+      "year": 2008,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273b4c5982e1b92f97a126fc18c"
+    }
+  },
+  "137": {
+    "original_filename": "Cardi B, Bad Bunny & J Balvin - I Like It [Official Music Video] [xTlNMmZKwpA].mp3",
+    "youtube": {
+      "youtube_title_v1": "Cardi B, Bad Bunny & J Balvin - I Like It [Official Music Video]",
+      "youtube_title_v2": "Cardi B, Bad Bunny & J Balvin - I Like It",
+      "youtube_title_v3": "I Like It",
+      "youtube_artist": "Cardi B, Bad Bunny & J Balvin"
+    },
+    "spotify": {
+      "title": "I Like It",
+      "artist": "Cardi B, Bad Bunny, J Balvin",
+      "album": "Invasion of Privacy",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273a0caffda54afd0a65995bbab"
+    }
+  },
+  "138": {
+    "original_filename": "Tyga - Taste (Official Video) ft. Offset [LjxulQ1bEWg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Tyga - Taste (Official Video) ft. Offset",
+      "youtube_title_v2": "Tyga - Taste ft. Offset",
+      "youtube_title_v3": "Taste",
+      "youtube_artist": "Tyga"
+    },
+    "spotify": {
+      "title": "Taste (feat. Offset)",
+      "artist": "Tyga, Offset",
+      "album": "Legendary",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d38a9c6e4fcfeb128f111f6b"
+    }
+  },
+  "139": {
+    "original_filename": "Gente de Zona - La Gozadera (Official Video) ft. Marc Anthony [VMp55KH_3wo].mp3",
+    "youtube": {
+      "youtube_title_v1": "Gente de Zona - La Gozadera (Official Video) ft. Marc Anthony",
+      "youtube_title_v2": "Gente de Zona - La Gozadera ft. Marc Anthony",
+      "youtube_title_v3": "La Gozadera",
+      "youtube_artist": "Gente de Zona"
+    },
+    "spotify": {
+      "title": "La Gozadera (feat. Marc Anthony)",
+      "artist": "Gente De Zona, Marc Anthony",
+      "album": "Visualízate",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2730e674e81c59a2308c1b4b660"
+    }
+  },
+  "140": {
+    "original_filename": "Calvin Harris & Disciples - How Deep Is Your Love [EgqUJOudrcM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Calvin Harris & Disciples - How Deep Is Your Love",
+      "youtube_title_v2": "Calvin Harris & Disciples - How Deep Is Your Love",
+      "youtube_title_v3": "How Deep Is Your Love",
+      "youtube_artist": "Calvin Harris & Disciples"
+    },
+    "spotify": {
+      "title": "How Deep Is Your Love",
+      "artist": "Calvin Harris, Disciples",
+      "album": "96 Months",
+      "year": 2024,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738daa8ac6367fc997c1873b9b"
+    }
+  },
+  "141": {
+    "original_filename": "Post Malone - Congratulations (Official Music Video) ft. Quavo [SC4xMk98Pdc].mp3",
+    "youtube": {
+      "youtube_title_v1": "Post Malone - Congratulations (Official Music Video) ft. Quavo",
+      "youtube_title_v2": "Post Malone - Congratulations ft. Quavo",
+      "youtube_title_v3": "Congratulations",
+      "youtube_artist": "Post Malone"
+    },
+    "spotify": {
+      "title": "Congratulations",
+      "artist": "Post Malone, Quavo",
+      "album": "Stoney (Deluxe)",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27355404f712deb84d0650a4b41"
+    }
+  },
+  "142": {
+    "original_filename": "Taylor Swift - Bad Blood ft. Kendrick Lamar [QcIy9NiNbmo].mp3",
+    "youtube": {
+      "youtube_title_v1": "Taylor Swift - Bad Blood ft. Kendrick Lamar",
+      "youtube_title_v2": "Taylor Swift - Bad Blood ft. Kendrick Lamar",
+      "youtube_title_v3": "Bad Blood",
+      "youtube_artist": "Taylor Swift"
+    },
+    "spotify": {
+      "title": "Bad Blood (feat. Kendrick Lamar) (Taylor's Version)",
+      "artist": "Taylor Swift, Kendrick Lamar",
+      "album": "1989 (Taylor's Version) [Deluxe]",
+      "year": 2023,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273dc2bacae1dca83d26e2b1949"
+    }
+  },
+  "143": {
+    "original_filename": "Charlie Puth - Attention [Official Video] [nfs8NYg7yQM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Charlie Puth - Attention [Official Video]",
+      "youtube_title_v2": "Charlie Puth - Attention",
+      "youtube_title_v3": "Attention",
+      "youtube_artist": "Charlie Puth"
+    },
+    "spotify": {
+      "title": "Attention",
+      "artist": "Charlie Puth",
+      "album": "Voicenotes",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273897f73256b9128a9d70eaf66"
+    }
+  },
+  "144": {
+    "original_filename": "PULCINO PIO - El Pollito Pio (Official video) [dhsy6epaJGs].mp3",
+    "youtube": {
+      "youtube_title_v1": "PULCINO PIO - El Pollito Pio (Official video)",
+      "youtube_title_v2": "PULCINO PIO - El Pollito Pio",
+      "youtube_title_v3": "El Pollito Pio",
+      "youtube_artist": "PULCINO PIO"
+    },
+    "spotify": {
+      "title": "El Pollito Pio - Radio Edit",
+      "artist": "Pulcino Pio",
+      "album": "El Pollito Pio",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273030c4b718143075e984985bc"
+    }
+  },
+  "145": {
+    "original_filename": "Rick Astley - Never Gonna Give You Up (Official Music Video) [dQw4w9WgXcQ].mp3",
+    "youtube": {
+      "youtube_title_v1": "Rick Astley - Never Gonna Give You Up (Official Music Video)",
+      "youtube_title_v2": "Rick Astley - Never Gonna Give You Up",
+      "youtube_title_v3": "Never Gonna Give You Up",
+      "youtube_artist": "Rick Astley"
+    },
+    "spotify": {
+      "title": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "album": "Whenever You Need Somebody",
+      "year": 1987,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27315ebbedaacef61af244262a8"
+    }
+  },
+  "146": {
+    "original_filename": "Shawn Mendes - Stitches (Official Music Video) [VbfpW0pbvaU].mp3",
+    "youtube": {
+      "youtube_title_v1": "Shawn Mendes - Stitches (Official Music Video)",
+      "youtube_title_v2": "Shawn Mendes - Stitches",
+      "youtube_title_v3": "Stitches",
+      "youtube_artist": "Shawn Mendes"
+    },
+    "spotify": {
+      "title": "Stitches",
+      "artist": "Shawn Mendes",
+      "album": "Handwritten",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273d26246b23c8bfa8ce543b3bb"
+    }
+  },
+  "147": {
+    "original_filename": "DJ Snake - Let Me Love You ft. Justin Bieber [euCqAq6BRa4].mp3",
+    "youtube": {
+      "youtube_title_v1": "DJ Snake - Let Me Love You ft. Justin Bieber",
+      "youtube_title_v2": "DJ Snake - Let Me Love You ft. Justin Bieber",
+      "youtube_title_v3": "Let Me Love You",
+      "youtube_artist": "DJ Snake"
+    },
+    "spotify": {
+      "title": "Let Me Love You",
+      "artist": "DJ Snake, Justin Bieber",
+      "album": "Encore",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273212d776c31027c511f0ee3bc"
+    }
+  },
+  "148": {
+    "original_filename": "Drake - God's Plan [xpVfcZ0ZcFM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Drake - God's Plan",
+      "youtube_title_v2": "Drake - God's Plan",
+      "youtube_title_v3": "God's Plan",
+      "youtube_artist": "Drake"
+    },
+    "spotify": {
+      "title": "God's Plan",
+      "artist": "Drake",
+      "album": "Scorpion",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f907de96b9a4fbc04accc0d5"
+    }
+  },
+  "149": {
+    "original_filename": "Lukas Graham - 7 Years [Official Music Video] [LHCob76kigA].mp3",
+    "youtube": {
+      "youtube_title_v1": "Lukas Graham - 7 Years [Official Music Video]",
+      "youtube_title_v2": "Lukas Graham - 7 Years",
+      "youtube_title_v3": "7 Years",
+      "youtube_artist": "Lukas Graham"
+    },
+    "spotify": {
+      "title": "7 Years",
+      "artist": "Lukas Graham",
+      "album": "Lukas Graham",
+      "year": 2016,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2732d94d0f04e9a58d1654b760b"
+    }
+  },
+  "150": {
+    "original_filename": "Coldplay - Adventure Of A Lifetime (Official Video) [QtXby3twMmI].mp3",
+    "youtube": {
+      "youtube_title_v1": "Coldplay - Adventure Of A Lifetime (Official Video)",
+      "youtube_title_v2": "Coldplay - Adventure Of A Lifetime",
+      "youtube_title_v3": "Adventure Of A Lifetime",
+      "youtube_artist": "Coldplay"
+    },
+    "spotify": {
+      "title": "Adventure of a Lifetime",
+      "artist": "Coldplay",
+      "album": "A Head Full of Dreams",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2738ff7c3580d429c8212b9a3b6"
+    }
+  },
+  "151": {
+    "original_filename": "One Direction - What Makes You Beautiful (Official Video) [QJO3ROT-A4E].mp3",
+    "youtube": {
+      "youtube_title_v1": "One Direction - What Makes You Beautiful (Official Video)",
+      "youtube_title_v2": "One Direction - What Makes You Beautiful",
+      "youtube_title_v3": "What Makes You Beautiful",
+      "youtube_artist": "One Direction"
+    },
+    "spotify": {
+      "title": "What Makes You Beautiful",
+      "artist": "One Direction",
+      "album": "Up All Night",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2734a5584795dc73860653a9a3e"
+    }
+  },
+  "152": {
+    "original_filename": "Ellie Goulding - Burn (Official Video) [CGyEd0aKWZE].mp3",
+    "youtube": {
+      "youtube_title_v1": "Ellie Goulding - Burn (Official Video)",
+      "youtube_title_v2": "Ellie Goulding - Burn",
+      "youtube_title_v3": "Burn",
+      "youtube_artist": "Ellie Goulding"
+    },
+    "spotify": {
+      "title": "Burn",
+      "artist": "Ellie Goulding",
+      "album": "Halcyon Nights",
+      "year": 2012,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273a8f674745d4e6757a9b35ba0"
+    }
+  },
+  "153": {
+    "original_filename": "Aqua - Barbie Girl (Official Music Video) [ZyhrYis509A].mp3",
+    "youtube": {
+      "youtube_title_v1": "Aqua - Barbie Girl (Official Music Video)",
+      "youtube_title_v2": "Aqua - Barbie Girl",
+      "youtube_title_v3": "Barbie Girl",
+      "youtube_artist": "Aqua"
+    },
+    "spotify": {
+      "title": "Barbie Girl",
+      "artist": "Aqua",
+      "album": "Aquarium (Special Edition)",
+      "year": 1997,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f5768db89dd8ac30fd0e414f"
+    }
+  },
+  "154": {
+    "original_filename": "BAD BUNNY x DRAKE - MÍA (Video Oficial) [OSUxrSe5GbI].mp3",
+    "youtube": {
+      "youtube_title_v1": "BAD BUNNY x DRAKE - MÍA (Video Oficial)",
+      "youtube_title_v2": "BAD BUNNY x DRAKE - MÍA",
+      "youtube_title_v3": "MÍA",
+      "youtube_artist": "BAD BUNNY x DRAKE"
+    },
+    "spotify": {
+      "title": "MIA",
+      "artist": "Bad Bunny, Drake",
+      "album": "X 100PRE",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273519266cd05491a5b5bc22d1e"
+    }
+  },
+  "155": {
+    "original_filename": "Anuel AA, KAROL G - Secreto [gFZfwWZV074].mp3",
+    "youtube": {
+      "youtube_title_v1": "Anuel AA, KAROL G - Secreto",
+      "youtube_title_v2": "Anuel AA, KAROL G - Secreto",
+      "youtube_title_v3": "Secreto",
+      "youtube_artist": "Anuel AA, KAROL G"
+    },
+    "spotify": {
+      "title": "Secreto",
+      "artist": "Anuel AA, KAROL G",
+      "album": "Secreto",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273dc67d6f3cc602f02ed7fd932"
+    }
+  },
+  "156": {
+    "original_filename": "Christian Nodal - Adiós Amor (Video Oficial) [ETLoTxVVvjM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Christian Nodal - Adiós Amor (Video Oficial)",
+      "youtube_title_v2": "Christian Nodal - Adiós Amor",
+      "youtube_title_v3": "Adiós Amor",
+      "youtube_artist": "Christian Nodal"
+    },
+    "spotify": {
+      "title": "Adiós Amor",
+      "artist": "Christian Nodal",
+      "album": "Me Dejé Llevar",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2731f5a61ca13f18ac48efcd1ae"
+    }
+  },
+  "157": {
+    "original_filename": "Shakira - Hips Don't Lie (Official 4K Video) ft. Wyclef Jean [DUT5rEU6pqM].mp3",
+    "youtube": {
+      "youtube_title_v1": "Shakira - Hips Don't Lie (Official 4K Video) ft. Wyclef Jean",
+      "youtube_title_v2": "Shakira - Hips Don't Lie (Official 4K Video) ft. Wyclef Jean",
+      "youtube_title_v3": "Hips Don't Lie (Official 4K Video)",
+      "youtube_artist": "Shakira"
+    },
+    "spotify": {}
+  },
+  "158": {
+    "original_filename": "BAD BUNNY x JHAY CORTEZ - DÁKITI (Video Oficial) [TmKh7lAwnBI].mp3",
+    "youtube": {
+      "youtube_title_v1": "BAD BUNNY x JHAY CORTEZ - DÁKITI (Video Oficial)",
+      "youtube_title_v2": "BAD BUNNY x JHAY CORTEZ - DÁKITI",
+      "youtube_title_v3": "DÁKITI",
+      "youtube_artist": "BAD BUNNY x JHAY CORTEZ"
+    },
+    "spotify": {}
+  },
+  "159": {
+    "original_filename": "KAROL G, Nicki Minaj - Tusa (Official Video) [tbneQDc2H3I].mp3",
+    "youtube": {
+      "youtube_title_v1": "KAROL G, Nicki Minaj - Tusa (Official Video)",
+      "youtube_title_v2": "KAROL G, Nicki Minaj - Tusa",
+      "youtube_title_v3": "Tusa",
+      "youtube_artist": "KAROL G, Nicki Minaj"
+    },
+    "spotify": {
+      "title": "Tusa",
+      "artist": "KAROL G, Nicki Minaj",
+      "album": "Tusa",
+      "year": 2019,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273ddd3154c58e15a8bdb63bbcc"
+    }
+  },
+  "160": {
+    "original_filename": "Thalia, NATTI NATASHA - No Me Acuerdo (Official Video) [iQEVguV71sI].mp3",
+    "youtube": {
+      "youtube_title_v1": "Thalia, NATTI NATASHA - No Me Acuerdo (Official Video)",
+      "youtube_title_v2": "Thalia, NATTI NATASHA - No Me Acuerdo",
+      "youtube_title_v3": "No Me Acuerdo",
+      "youtube_artist": "Thalia, NATTI NATASHA"
+    },
+    "spotify": {
+      "title": "No Me Acuerdo",
+      "artist": "Thalia, NATTI NATASHA",
+      "album": "Valiente",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2737e193a3721f7181bdce2cf89"
+    }
+  },
+  "161": {
+    "original_filename": "Backstreet Boys - I Want It That Way (Official HD Video) [4fndeDfaWCg].mp3",
+    "youtube": {
+      "youtube_title_v1": "Backstreet Boys - I Want It That Way (Official HD Video)",
+      "youtube_title_v2": "Backstreet Boys - I Want It That Way",
+      "youtube_title_v3": "I Want It That Way",
+      "youtube_artist": "Backstreet Boys"
+    },
+    "spotify": {
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "album": "Millennium",
+      "year": 1999,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2732160c02bc56f192df0f4986b"
+    }
+  },
+  "162": {
+    "original_filename": "6ix9ine - BEBE ft. Anuel AA [ycV6cnK3SIs].mp3",
+    "youtube": {
+      "youtube_title_v1": "6ix9ine - BEBE ft. Anuel AA",
+      "youtube_title_v2": "6ix9ine - BEBE ft. Anuel AA",
+      "youtube_title_v3": "BEBE",
+      "youtube_artist": "6ix9ine"
+    },
+    "spotify": {
+      "title": "BEBE (feat. Anuel AA)",
+      "artist": "6ix9ine, Anuel AA",
+      "album": "DUMMY BOY (Revised)",
+      "year": 2018,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2730a4da3f1a72e4ecaabb76370"
+    }
+  },
+  "163": {
+    "original_filename": "twenty one pilots - Ride (Official Video) [Pw-0pbY9JeU].mp3",
+    "youtube": {
+      "youtube_title_v1": "twenty one pilots - Ride (Official Video)",
+      "youtube_title_v2": "twenty one pilots - Ride",
+      "youtube_title_v3": "Ride",
+      "youtube_artist": "twenty one pilots"
+    },
+    "spotify": {
+      "title": "Ride",
+      "artist": "Twenty One Pilots",
+      "album": "Blurryface",
+      "year": 2015,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2732df0d98a423025032d0db1f7"
+    }
+  },
+  "164": {
+    "original_filename": "Dr. Dre - Still D.R.E. ft. Snoop Dogg [_CL6n0FJZpk].mp3",
+    "youtube": {
+      "youtube_title_v1": "Dr. Dre - Still D.R.E. ft. Snoop Dogg",
+      "youtube_title_v2": "Dr. Dre - Still D.R.E. ft. Snoop Dogg",
+      "youtube_title_v3": "Still D.R.E.",
+      "youtube_artist": "Dr. Dre"
+    },
+    "spotify": {
+      "title": "Still D.R.E.",
+      "artist": "Dr. Dre, Snoop Dogg",
+      "album": "2001",
+      "year": 1999,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2739b19c107109de740bad72df5"
+    }
+  },
+  "165": {
+    "original_filename": "Enrique Iglesias - SUBEME LA RADIO (Official Video) ft. Descemer Bueno, Zion & Lennox [9sg-A-eS6Ig].mp3",
+    "youtube": {
+      "youtube_title_v1": "Enrique Iglesias - SUBEME LA RADIO (Official Video) ft. Descemer Bueno, Zion & Lennox",
+      "youtube_title_v2": "Enrique Iglesias - SUBEME LA RADIO ft. Descemer Bueno, Zion & Lennox",
+      "youtube_title_v3": "SUBEME LA RADIO",
+      "youtube_artist": "Enrique Iglesias"
+    },
+    "spotify": {
+      "title": "SUBEME LA RADIO",
+      "artist": "Enrique Iglesias, Descemer Bueno, Zion & Lennox",
+      "album": "SUBEME LA RADIO (feat. Descemer Bueno & Zion & Lennox)",
+      "year": 2017,
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f634ce4f69fc4a7113d35217"
+    }
   }
 }

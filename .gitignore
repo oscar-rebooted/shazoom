@@ -7,3 +7,5 @@ __pycache__
 .env
 old
 db_pipeline/downloads
+layer_packages
+*.pkl
