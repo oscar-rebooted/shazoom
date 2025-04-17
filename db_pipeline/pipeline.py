@@ -311,7 +311,7 @@ class SpotifyEnricher:
             # Get additional metadata from Spotify using both title and artist
             spotify_data = self.search_track(title, artist)
                         
-            entry["spotify"] = {}
+            entry["spotify"] = {}firef
             # Add other Spotify data if available
             if spotify_data:
                 for key, value in spotify_data.items():
