@@ -4,8 +4,9 @@
 ## Disclaimer
 This project is intended to replicate the audio fingerprinting algorithm from Shazam as described in Avery Li-Chun Wang's original paper (2003) for educational purposes only. It is not affiliated with or endorsed by Shazam.
 
-Paper from 2003: https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf
-Also in case you're curious, here's the Shazam pitch deck from 20003: https://ismir2003.ismir.net/presentations/Wang.pdf
+Paper: https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf
+
+Also in case you're curious, here's the Shazam pitch deck from 2003: https://ismir2003.ismir.net/presentations/Wang.pdf
 
 ## Structure of the repo
 
