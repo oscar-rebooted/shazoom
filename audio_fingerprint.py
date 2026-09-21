@@ -3,18 +3,28 @@ from librosa import load, stft
 from scipy.ndimage import maximum_filter
 
 def create_audio_fingerprint(audio_path, target_peaks_per_second=30, window_length=1024, hop_length=32, num_bands=6):
+    # 1. Load and preprocess the audio
+    # Convert to mono (averages the stereo channels) and downsample
+    # 8192 Hz is chosen because most relevant audio information is below 4096 Hz
     y, sr = load(audio_path, mono=True, sr=8192)
-    
+
+    # 2. Compute Short-Time Fourier Transform (STFT), i.e., spectrogram
+    # Note: librosa.stft uses a Hann window by default, which is fine for our purposes
     D = stft(y, n_fft=window_length, hop_length=hop_length)
-    
+
+    # 3. Convert to magnitude spectrogram (remove phase information)
     magnitude = abs(D)
-    
+
+    # 4. Divide frequency bins into logarithmic bands to better match human hearing
+    # The frequency bins go from 0 to Nyquist (4096 Hz)
     freq_bins = magnitude.shape[0]
     bands = []
-    
+
+    # Start with 1 instead of 0 to avoid log(0) which is undefined
     band_edges = logspace(log10(1), log10(freq_bins-1), num_bands + 1).astype(int)
     band_edges[0] = 0
-    
+
+    # 5. For each time frame and each frequency band, find the maximum
     for i in range(num_bands):
         start = band_edges[i]
         end = band_edges[i + 1]
@@ -29,14 +39,18 @@ def create_audio_fingerprint(audio_path, target_peaks_per_second=30, window_leng
             if len(band_magnitude) > 0:
                 max_idx = argmax(band_magnitude) + start
                 band_peaks[max_idx, t] = magnitude[max_idx, t]
-    
+
+    # 6. Apply max filter to identify local peaks
+    # Only points that are the max in their neighborhood will be the same in both
     neighbourhood_size = 30
     
     max_filtered = maximum_filter(band_peaks, size=(neighbourhood_size, neighbourhood_size))
     peak_mask = (band_peaks == max_filtered) & (band_peaks > 0)
-    
+
+    # 7. Get the coordinates of all peak points
     peak_coordinates = argwhere(peak_mask)
-    
+
+    # 8. Convert to list of (time, frequency) tuples for the fingerprint
     fingerprint = [(time, freq) for freq, time in peak_coordinates]
     
     print(f"Number of peaks found: {len(fingerprint)}")
